@@ -1,0 +1,25 @@
+[
+	{
+		"id" : 1,
+		"name" : "Toy Story (1995)",
+		"realease" : "01-Jan-1995",
+		"Action" : 0, 
+		"Adventure" : 0,
+		"Animation" : 0,
+        "Children's" : 1,
+        "Comedy" : 1,
+        "Crime" : 1, 
+        "Documentary" : 0,
+        "Drama" : 0,
+        "Fantasy" : 0,
+        "Film-Noir" : 0,
+        "Horror" : 0,
+        "Musical" : 0, 
+        "Mystery" : 0,
+        "Romance" : 0,
+        "Sci-Fi" : 0,
+        "Thriller" : 0,
+        "War" : 0,
+        "Western" : 0
+	}
+]

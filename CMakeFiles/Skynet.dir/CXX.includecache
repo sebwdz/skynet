@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+./includes/Data/DbObject.hpp
+pqxx/pqxx
+-
+json11/json11.hpp
+./includes/Data/json11/json11.hpp
+
+./includes/Data/DbReader.hpp
+DbObject.hpp
+./includes/Data/DbObject.hpp
+
+./includes/Manager/AManager.hpp
+json11/json11.hpp
+./includes/Manager/json11/json11.hpp
+
+./includes/Manager/Request.hpp
+json11/json11.hpp
+./includes/Manager/json11/json11.hpp
+AManager.hpp
+./includes/Manager/AManager.hpp
+../Data/DbReader.hpp
+./includes/Data/DbReader.hpp
+
+./libs/json11/json11.hpp
+string
+-
+vector
+-
+map
+-
+memory
+-
+initializer_list
+-
+
+/home/sebastien/Projects/tek2/skynet/srcs/Manager/Request.cpp
+Manager/Request.hpp
+/home/sebastien/Projects/tek2/skynet/srcs/Manager/Manager/Request.hpp
+

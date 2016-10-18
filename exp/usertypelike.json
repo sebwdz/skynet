@@ -1,0 +1,67 @@
+{
+	"request" : {
+		"from" : ["users"],
+		"select" : [
+			"users.id \"users.id\"",
+			"preferences.likes \"preferences.likes\"",
+			"users.age / 10 \"users.age\"",
+			"users.gender \"users.gender\""],
+		"joins" : [{
+			"database" : "preferences",
+			"on" : {
+				"type" : "equal",
+				"right" : "users.id",
+				"left" : "preferences.fk_user_id"
+			}
+		}]
+	},
+	"network" : {
+		"settings" : {
+			"type" : "SelfOrganizingMap",
+			"inputs" : 21, 
+			"outputs" : [4, 4]
+		},
+		"session" : {
+			"iterations" : 2000
+		}
+	},
+	"settings" : {
+		"inputs" : [{
+			"type" : "json",
+			"from" : [{
+				"column" : "preferences.likes",
+				"fields" : [
+					"Mystery", "Drama", "Sci-Fi", "Fantasy", "Unknown", 
+        			"Horror", "Film-Noir", "Crime", "Romance", "Childrens", 
+        			"Musical", "Animation", "Western", "Action", "Comedy", 
+        			"Documentary", "War", "Thriller", "Adventure"
+				]
+			}]
+		}, {
+			"type" : "bool",
+			"from" : [{"column" : "users.gender"}]
+		}, {
+			"type" : "double",
+			"from" : [{"column" : "users.age"}]
+		}],
+		"outputs" : [{
+			"type_use" : "accu",
+			"type" : "int",
+			"from" : [{"column" : "users.id"}]
+		}]
+	},
+	"export" : [{
+		"database" : "networks",
+		"fields" : {
+			"fk_id" : ":fk_id",
+			"map" : {
+					"outputs" : ":outputs",
+					"network" : ":network"
+			},
+			"settings" : { 
+				"request_id" : ":req.id"
+			},
+			"type" : "userlike"
+		}
+	}]
+}

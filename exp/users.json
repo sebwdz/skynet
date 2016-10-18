@@ -1,0 +1,72 @@
+{
+	"request" : {
+		"needs" : ["users.id"],
+		"from" : ["users"],
+		"select" : [
+			"movies.category \"movies.category\"",
+			"opinions.rate \"opinions.rate\""],
+		"joins" : [{
+			"database" : "opinions as opinions",
+			"on" : {
+				"type" : "equal",
+				"right" : ":users.id",
+				"left" : "opinions.fk_user_id"
+			}
+		}, {
+			"database" : "movies",
+			"on" : {
+				"type" : "equal",
+				"right" : "movies.id",
+				"left" : "opinions.fk_movie_id"
+			}
+		}],
+		"where" : {
+			"type" : "equal",
+			"left" : "opinions.fk_user_id",
+			"right" : "users.id"
+		}
+	},
+	"network" : {
+		"settings" : {
+			"type" : "SelfOrganizingMap",
+			"inputs" : 19, 
+			"outputs" : [5, 5]
+		},
+		"session" : {
+			"iterations" : 2000
+		}
+	},
+	"settings" : {
+		"inputs" : [{
+			"type" : "json",
+			"from" : [{
+				"column" : "movies.category",
+				"fields" : [
+					"Mystery", "Drama", "Sci-Fi", "Fantasy", "Unknown", 
+        			"Horror", "Film-Noir", "Crime", "Romance", "Childrens", 
+        			"Musical", "Animation", "Western", "Action", "Comedy", 
+        			"Documentary", "War", "Thriller", "Adventure"
+				]
+			}]
+		}],
+		"outputs" : [{
+			"type_use" : "average",
+			"type" : "double",
+			"from" : [{"column" : "opinions.rate"}]
+		}]
+	},
+	"export" : [{
+		"database" : "networks",
+		"fields" : {
+			"fk_id" : ":fk_id",
+			"map" : {
+					"outputs" : ":outputs",
+					"network" : ":network"
+			},
+			"settings" : { 
+				"request_id" : ":req.id"
+			},
+			"type" : "users"
+		}
+	}]
+}

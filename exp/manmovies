@@ -1,0 +1,108 @@
+{
+	"managers" : {
+		"mainRequest" : {
+			"type" : "request",
+			"request" : {
+				"select" : ["movies.id \"fk_id\""],
+				"from" : ["movies"]
+			}
+		},
+		"dataRequest" : {
+				"type" : "request",
+				"request" : {
+				"needs" : ["movies.id"],
+				"from" : ["preferences"],
+				"select" : [
+					"preferences.likes \"preferences.likes\"",
+					"users.age / 20.0 \"users.age\"",
+					"users.gender \"users.gender\"",
+					"opinions.rate \"opinions.rate\""],
+				"joins" : [{
+					"database" : "opinions as opinions",
+					"on" : {
+						"type" : "equal",
+						"right" : ":movies.id",
+						"left" : "opinions.fk_movie_id"
+					}
+				}, {
+					"database" : "users",
+					"on" : {
+						"type" : "equal",
+						"right" : "users.id",
+						"left" : "opinions.fk_user_id"
+					}
+				}],
+				"where" : {
+					"type" : "equal",
+					"left" : "preferences.fk_user_id",
+					"right" : "users.id"
+				}
+			}
+		},
+		"networkManager" : {
+			"type" : "network",
+			"network_type" : "learn",
+			"network" : {
+				"settings" : {
+					"type" : "SelfOrganizingMap",
+					"inputs" : 21, 
+					"outputs" : [4, 4]
+				},
+				"session" : {
+					"iterations" : 2000
+				}
+			},
+			"import" : {
+				"inputs" : [{
+					"type" : "json",
+					"from" : [{
+						"column" : "preferences.likes",
+						"fields" : [
+							"Mystery", "Drama", "Sci-Fi", "Fantasy", "Unknown", 
+		        			"Horror", "Film-Noir", "Crime", "Romance", "Childrens", 
+		        			"Musical", "Animation", "Western", "Action", "Comedy", 
+		        			"Documentary", "War", "Thriller", "Adventure"
+						]
+					}]
+					}, {
+						"type" : "bool",
+						"from" : [{"column" : "users.gender"}]
+					}, {
+						"type" : "double",
+						"from" : [{"column" : "users.age"}]
+				}],
+				"outputs" : [{
+					"type_use" : "average",
+					"type" : "double",
+					"from" : [{"column" : "opinions.rate"}]
+				}]
+			},
+			"export" : [{
+				"database" : "networks",
+				"fields" : {
+					"fk_id" : ":fk_id",
+					"map" : {
+							"outputs" : ":outputs",
+							"network" : ":network"
+					},
+					"settings" : { 
+						"request_id" : ":req.id"
+					},
+					"type" : "movieslike"
+				}
+			}]
+		}
+	},
+	"process" : [{
+			"call" : "mainRequest",
+			"type" : "forone",
+			"to" : [{
+				"call" : "dataRequest",
+				"type" : "forall",
+				"to" : [{
+					"call" : "networkManager"
+				}]
+			}]
+		}
+	]
+}

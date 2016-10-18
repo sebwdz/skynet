@@ -1,0 +1,106 @@
+{
+	"request" : {
+		"needs" : ["movies.id"],
+		"from" : ["opinions"],
+		"select" : [
+			"preferences.views \"preferences.views\"",
+			"preferences.views \"preferences.likes\"",
+			"users.age \"users.age\"",
+			"users.gender \"users.gender\"",
+			"movies.category \"movies.category\"",
+			"opinions.rate \"opinions.rate\""],
+		"joins" : [{
+			"database" : "movies",
+			"on" : {
+				"type" : "equal",
+				"right" : "movies.id",
+				"left" : "opinions.fk_movie_id"
+			}
+		}, {
+			"database" : "users",
+			"on" : {
+				"type" : "equal",
+				"right" : "users.id",
+				"left" : "opinions.fk_user_id"
+			}
+		}, {
+			"database" : "preferences",
+			"on" : {
+				"type" : "equal",
+				"right" : "preferences.fk_user_id LIMIT 5000",
+				"left" : "opinions.fk_user_id"
+			}
+		}]
+	},
+	"network" : {
+		"settings" : {
+			"type" : "SelfOrganizingMap",
+			"inputs" : 59, 
+			"outputs" : [5, 5]
+		},
+		"session" : {
+			"iterations" : 3000
+		}
+	},
+	"settings" : {
+		"inputs" : [{
+			"type" : "json",
+			"from" : [{
+				"column" : "preferences.views",
+				"fields" : [
+					"Mystery", "Drama", "Sci-Fi", "Fantasy", "Unknown", 
+        			"Horror", "Film-Noir", "Crime", "Romance", "Childrens", 
+        			"Musical", "Animation", "Western", "Action", "Comedy", 
+        			"Documentary", "War", "Thriller", "Adventure"
+				]
+			}]
+		}, {
+			"type" : "json",
+			"from" : [{
+				"column" : "preferences.likes",
+				"fields" : [
+					"Mystery", "Drama", "Sci-Fi", "Fantasy", "Unknown", 
+        			"Horror", "Film-Noir", "Crime", "Romance", "Childrens", 
+        			"Musical", "Animation", "Western", "Action", "Comedy", 
+        			"Documentary", "War", "Thriller", "Adventure"
+				]
+			}]
+		}, {
+			"type" : "json",
+			"from" : [{
+				"column" : "movies.category",
+				"fields" : [
+					"Mystery", "Drama", "Sci-Fi", "Fantasy", "Unknown", 
+        			"Horror", "Film-Noir", "Crime", "Romance", "Childrens", 
+        			"Musical", "Animation", "Western", "Action", "Comedy", 
+        			"Documentary", "War", "Thriller", "Adventure"
+				]
+			}]
+		}, {
+			"type" : "bool",
+			"from" : [{"column" : "users.gender"}]
+		}, {
+			"type" : "double",
+			"from" : [{"column" : "users.age"}]
+		}],
+		"outputs" : [{
+			"type_use" : "average",
+			"type" : "double",
+			"from" : [{"column" : "opinions.rate"}]
+		}]
+	},
+	"export" : [{
+		"database" : "networks",
+		"fields" : {
+			"fk_id" : ":fk_id",
+			"map" : {
+					"outputs" : ":outputs",
+					"network" : ":network"
+			},
+			"settings" : { 
+				"request_id" : ":req.id"
+			},
+			"type" : "moviesusers"
+		}
+	}]
+}

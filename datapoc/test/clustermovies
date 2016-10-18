@@ -1,0 +1,235 @@
+//
+// Created by sebastien on 8/12/16.
+//
+
+#include            <iostream>
+#include            <unistd.h>
+#include            <fstream>
+#include            <SDL/SDL.h>
+#include            <GL/gl.h>
+#include            <GL/glu.h>
+#include            "json11/json11.hpp"
+#include            "Neuronal/Loader/Loader.hpp"
+#include            "Neuronal/LearningSession/SupervisedSession.hpp"
+#include            "Neuronal/Network/SelfOrganizingMap.hpp"
+
+struct              point {
+    double             r;
+    double             g;
+    double             b;
+    double             nb;
+};
+
+double                 angle = 0;
+
+void                display(point **pt, json11::Json const& json) {
+    angle+=0.1;
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+    glMatrixMode( GL_MODELVIEW );
+    glLoadIdentity( );
+
+    gluLookAt(-1,-1,10,10,10,0,0,0,1);
+
+    glTranslated(10, 10, 0);
+    glRotated(angle,0,0,1);
+    glTranslated(-10, -10, 0);
+
+    for (unsigned int x = 0; x < json["settings"]["outputs"][0].int_value() - 1; x++) {
+        for (unsigned int y = 0; y < json["settings"]["outputs"][1].int_value() - 1; y++) {
+            glBegin(GL_QUADS);
+            glColor3ub(pt[x][y].r, pt[x][y].g, pt[x][y].b);
+            glVertex3d(x, y, pt[x][y].nb);
+            glColor3ub(pt[x + 1][y].r, pt[x + 1][y].g, pt[x + 1][y].b);
+            glVertex3d(x + 1, y, pt[x + 1][y].nb);
+            glColor3ub(pt[x + 1][y + 1].nb, pt[x + 1][y + 1].g, pt[x + 1][y + 1].b);
+            glVertex3d(x + 1, y + 1, pt[x + 1][y + 1].nb);
+            glColor3ub(pt[x][y + 1].r, pt[x][y + 1].g, pt[x][y + 1].b);
+            glVertex3d(x, y + 1, pt[x][y + 1].nb);
+            glEnd();
+        }
+    }
+    glFlush();
+    SDL_GL_SwapBuffers();
+}
+
+void                test(char *datause) {
+    Skynet::Neuronal::SelfOrganizingMap             *map;
+    std::ifstream                                   file("exp/test2.json");
+    std::string                                     content;
+    std::string                                     err;
+    json11::Json                                    json;
+    json11::Json                                    data;
+
+    SDL_Init(SDL_INIT_VIDEO);
+    SDL_WM_SetCaption("SDL GL Application", NULL);
+    SDL_SetVideoMode(640, 480, 32, SDL_OPENGL);
+    glMatrixMode( GL_PROJECTION );
+    glLoadIdentity( );
+    gluPerspective(70,(double)640/480,1,1000);
+    glEnable(GL_DEPTH_TEST);
+
+    bool continuer = true;
+    SDL_Event event;
+
+    srand(time(NULL));
+    content = std::string((std::istreambuf_iterator<char>(file)),
+                          std::istreambuf_iterator<char>());
+    json = json11::Json::parse(content, err);
+    if (err.size()) {
+        std::cout << err << std::endl;
+        return ;
+    }
+
+    file.close();
+    file.open(datause);
+    content = std::string((std::istreambuf_iterator<char>(file)),
+                          std::istreambuf_iterator<char>());
+    data = json11::Json::parse(content, err);
+    std::vector<double>         inputs(19, 0);
+
+    map = new Skynet::Neuronal::SelfOrganizingMap();
+    map->load(json["settings"]);
+
+    point   **pt = new point*[json["settings"]["outputs"][0].int_value()];
+    for (unsigned int it = 0; it < json["settings"]["outputs"][0].int_value(); it++) {
+        pt[it] = new point[json["settings"]["outputs"][1].int_value()];
+    }
+
+    point   colors[8] = {{58, 203, 220},
+                         {71, 194, 125},
+                         {217, 237, 157},
+                         {184, 29, 178},
+                         {102, 15, 130},
+                         {87, 17, 238},
+                         {26, 175, 216},
+                         {117, 177, 46}};
+    int angle = 0;
+    //map = dynamic_cast<Skynet::Neuronal::SelfOrganizingMap*>(Skynet::Neuronal::Loader::getInstance().load(json));
+    map->reset(1000);
+    unsigned int it = 0;
+    while (continuer)
+    {
+        SDL_PollEvent(&event);
+        switch(event.type)
+        {
+            case SDL_QUIT:
+                continuer = false;
+                it = 5000;
+                break;
+
+        }
+        if (it < 1000) {
+            std::cout << "\r\r" << it << std::endl;
+            for (unsigned int x = 0; x < json["settings"]["outputs"][0].int_value(); x++) {
+                for (unsigned int y = 0; y < json["settings"]["outputs"][1].int_value(); y++) {
+                    pt[x][y].r = 0;
+                    pt[x][y].g = 0;
+                    pt[x][y].b = 0;
+                    pt[x][y].nb = 0;
+                }
+            }
+            std::map<std::string, json11::Json>::const_iterator udata;
+            for (udata = data.object_items().begin(); udata != data.object_items().end(); udata++) {
+                inputs[0] = udata->second["Sci-Fi"].int_value();
+                inputs[1] = udata->second["Unknown"].int_value();
+                inputs[2] = udata->second["Crime"].int_value();
+                inputs[3] = udata->second["Romance"].int_value();
+                inputs[4] = udata->second["Animation"].int_value();
+                inputs[5] = udata->second["Comedy"].int_value();
+                inputs[6] = udata->second["War"].int_value();
+                inputs[7] = udata->second["Horror"].int_value();
+                inputs[8] = udata->second["Film-Noir"].int_value();
+                inputs[9] = udata->second["Western"].int_value();
+                inputs[10] = udata->second["Thriller"].int_value();
+                inputs[11] = udata->second["Adventure"].int_value();
+                inputs[12] = udata->second["Mystery"].int_value();
+                inputs[13] = udata->second["Drama"].int_value();
+                inputs[14] = udata->second["Children's"].int_value();
+                inputs[15] = udata->second["Action"].int_value();
+                inputs[16] = udata->second["Documentary"].int_value();
+                inputs[17] = udata->second["Musical"].int_value();
+                inputs[18] = udata->second["Fantasy"].int_value();
+
+                point color = {0, 0, 0, 0};
+                for (unsigned int xx = 0; xx < 19; xx++) {
+                    int use = xx % 8;
+                    color.r += inputs[xx] * colors[use].r;
+                    color.g += inputs[xx] * colors[use].g;
+                    color.b += inputs[xx] * colors[use].b;
+                    color.nb += inputs[xx];
+                }
+
+                color.r /= color.nb;
+                color.g /= color.nb;
+                color.b /= color.nb;
+
+                map->setInputs(inputs);
+                map->learn();
+
+                map->exec();
+                pt[(int) map->getOutputs()[0]][(int) map->getOutputs()[1]].r += color.r;
+                pt[(int) map->getOutputs()[0]][(int) map->getOutputs()[1]].g += color.g;
+                pt[(int) map->getOutputs()[0]][(int) map->getOutputs()[1]].b += color.b;
+                pt[(int) map->getOutputs()[0]][(int) map->getOutputs()[1]].nb++;
+            }
+
+            double          max = 0;
+            for (unsigned int x = 0; x < json["settings"]["outputs"][0].int_value(); x++) {
+                for (unsigned int y = 0; y < json["settings"]["outputs"][1].int_value(); y++) {
+                    if (pt[x][y].nb) {
+                        pt[x][y].r /= pt[x][y].nb;
+                        pt[x][y].g /= pt[x][y].nb;
+                        pt[x][y].b /= pt[x][y].nb;
+                        if (pt[x][y].nb > max)
+                            max = pt[x][y].nb;
+                    }
+                }
+            }
+            for (unsigned int x = 0; x < json["settings"]["outputs"][0].int_value(); x++) {
+                for (unsigned int y = 0; y < json["settings"]["outputs"][1].int_value(); y++) {
+                    pt[x][y].nb /= max;
+                    pt[x][y].nb *= 10;
+                }
+            }
+            map->turn();
+            if (!(it % 10))
+                display(pt, json);
+        }
+        else {
+            display(pt, json);
+        }
+        it++;
+    }
+    SDL_Quit();
+}
+
+int                 main(int, char** av) {
+    test(av[1]);
+    return (0);
+    Skynet::Neuronal::Network                       *perceptron;
+    Skynet::Neuronal::SupervisedSession             session;
+    std::ifstream                                   file(av[1]);
+    std::string                                     content;
+    std::string                                     err;
+    json11::Json                                    json;
+
+    content = std::string((std::istreambuf_iterator<char>(file)),
+                          std::istreambuf_iterator<char>());
+    json = json11::Json::parse(content, err);
+    if (err.size()) {
+        std::cout << err << std::endl;
+        return (1);
+    }
+
+    perceptron = Skynet::Neuronal::Loader::getInstance().load(json);
+    session.load(json["sessions"][0]);
+
+    srand(time(NULL));
+
+    session.setNetwork(perceptron);
+    session.exec();
+
+    std::cout << session.evaluate() << std::endl;
+    return (0);
+}

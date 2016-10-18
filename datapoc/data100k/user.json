@@ -1,0 +1,6603 @@
+{
+    "344": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 344, 
+        "zipcode": 94117
+    }, 
+    "345": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 345, 
+        "zipcode": 94143
+    }, 
+    "346": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 346, 
+        "zipcode": 76059
+    }, 
+    "347": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 18, 
+        "id": 347, 
+        "zipcode": 90210
+    }, 
+    "340": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 340, 
+        "zipcode": 80123
+    }, 
+    "341": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 17, 
+        "id": 341, 
+        "zipcode": 44405
+    }, 
+    "342": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 25, 
+        "id": 342, 
+        "zipcode": 98006
+    }, 
+    "343": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 43, 
+        "id": 343, 
+        "zipcode": 30093
+    }, 
+    "810": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 55, 
+        "id": 810, 
+        "zipcode": 80526
+    }, 
+    "811": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 40, 
+        "id": 811, 
+        "zipcode": 73013
+    }, 
+    "812": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 812, 
+        "zipcode": 76234
+    }, 
+    "813": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 14, 
+        "id": 813, 
+        "zipcode": 2136
+    }, 
+    "348": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 24, 
+        "id": 348, 
+        "zipcode": 45660
+    }, 
+    "349": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 68, 
+        "id": 349, 
+        "zipcode": 61455
+    }, 
+    "816": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 816, 
+        "zipcode": 20755
+    }, 
+    "817": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 817, 
+        "zipcode": 60152
+    }, 
+    "595": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 595, 
+        "zipcode": 31909
+    }, 
+    "719": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 37, 
+        "id": 719, 
+        "zipcode": "V0R2H"
+    }, 
+    "718": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 718, 
+        "zipcode": 64118
+    }, 
+    "717": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 717, 
+        "zipcode": 84105
+    }, 
+    "716": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 36, 
+        "id": 716, 
+        "zipcode": 44265
+    }, 
+    "715": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 715, 
+        "zipcode": 91206
+    }, 
+    "714": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 714, 
+        "zipcode": 55343
+    }, 
+    "713": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 42, 
+        "id": 713, 
+        "zipcode": 7204
+    }, 
+    "712": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 22, 
+        "id": 712, 
+        "zipcode": 54901
+    }, 
+    "711": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 22, 
+        "id": 711, 
+        "zipcode": 15203
+    }, 
+    "710": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 710, 
+        "zipcode": 92020
+    }, 
+    "915": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 915, 
+        "zipcode": 60614
+    }, 
+    "914": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 914, 
+        "zipcode": 8105
+    }, 
+    "606": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 606, 
+        "zipcode": 63044
+    }, 
+    "917": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 22, 
+        "id": 917, 
+        "zipcode": 20006
+    }, 
+    "594": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 594, 
+        "zipcode": "M4J2K"
+    }, 
+    "736": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 48, 
+        "id": 736, 
+        "zipcode": 94618
+    }, 
+    "916": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 916, 
+        "zipcode": "N2L5N"
+    }, 
+    "911": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 37, 
+        "id": 911, 
+        "zipcode": 53210
+    }, 
+    "619": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 619, 
+        "zipcode": 44134
+    }, 
+    "910": {
+        "job": 7, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 910, 
+        "zipcode": 29301
+    }, 
+    "913": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 913, 
+        "zipcode": 76201
+    }, 
+    "298": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 298, 
+        "zipcode": 1581
+    }, 
+    "299": {
+        "job": 2, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 299, 
+        "zipcode": 63108
+    }, 
+    "296": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 43, 
+        "id": 296, 
+        "zipcode": 16803
+    }, 
+    "297": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 297, 
+        "zipcode": 98103
+    }, 
+    "294": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 294, 
+        "zipcode": 92110
+    }, 
+    "295": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 295, 
+        "zipcode": 50325
+    }, 
+    "292": {
+        "job": 14, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 292, 
+        "zipcode": 94703
+    }, 
+    "293": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 293, 
+        "zipcode": 60804
+    }, 
+    "290": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 290, 
+        "zipcode": 93550
+    }, 
+    "291": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 291, 
+        "zipcode": 44106
+    }, 
+    "591": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 57, 
+        "id": 591, 
+        "zipcode": 92093
+    }, 
+    "590": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 590, 
+        "zipcode": 82435
+    }, 
+    "593": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 31, 
+        "id": 593, 
+        "zipcode": 68767
+    }, 
+    "592": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 18, 
+        "id": 592, 
+        "zipcode": 97520
+    }, 
+    "199": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 199, 
+        "zipcode": 17604
+    }, 
+    "198": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 21, 
+        "id": 198, 
+        "zipcode": 55414
+    }, 
+    "597": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 597, 
+        "zipcode": 84116
+    }, 
+    "596": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 596, 
+        "zipcode": 77073
+    }, 
+    "195": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 195, 
+        "zipcode": 93555
+    }, 
+    "194": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 194, 
+        "zipcode": 2154
+    }, 
+    "197": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 55, 
+        "id": 197, 
+        "zipcode": 75094
+    }, 
+    "196": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 196, 
+        "zipcode": 55105
+    }, 
+    "191": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 191, 
+        "zipcode": 95161
+    }, 
+    "190": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 190, 
+        "zipcode": 95938
+    }, 
+    "193": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 193, 
+        "zipcode": 49931
+    }, 
+    "192": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 192, 
+        "zipcode": 90840
+    }, 
+    "270": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 270, 
+        "zipcode": 63119
+    }, 
+    "271": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 271, 
+        "zipcode": 22932
+    }, 
+    "272": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 272, 
+        "zipcode": 53706
+    }, 
+    "273": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 50, 
+        "id": 273, 
+        "zipcode": 10016
+    }, 
+    "274": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 274, 
+        "zipcode": 55414
+    }, 
+    "275": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 275, 
+        "zipcode": 92064
+    }, 
+    "276": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 276, 
+        "zipcode": 95064
+    }, 
+    "277": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 277, 
+        "zipcode": 55406
+    }, 
+    "278": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 37, 
+        "id": 278, 
+        "zipcode": 30033
+    }, 
+    "279": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 279, 
+        "zipcode": 85251
+    }, 
+    "738": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 738, 
+        "zipcode": 95403
+    }, 
+    "524": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 56, 
+        "id": 524, 
+        "zipcode": 2159
+    }, 
+    "525": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 525, 
+        "zipcode": 19711
+    }, 
+    "526": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 526, 
+        "zipcode": 97124
+    }, 
+    "527": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 527, 
+        "zipcode": 12180
+    }, 
+    "520": {
+        "job": 7, 
+        "gender": 0, 
+        "age": 62, 
+        "id": 520, 
+        "zipcode": 12603
+    }, 
+    "521": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 521, 
+        "zipcode": 2146
+    }, 
+    "522": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 522, 
+        "zipcode": 55443
+    }, 
+    "523": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 50, 
+        "id": 523, 
+        "zipcode": 4102
+    }, 
+    "599": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 22, 
+        "id": 599, 
+        "zipcode": "R3T5K"
+    }, 
+    "528": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 18, 
+        "id": 528, 
+        "zipcode": 55104
+    }, 
+    "529": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 47, 
+        "id": 529, 
+        "zipcode": 44224
+    }, 
+    "449": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 449, 
+        "zipcode": 55021
+    }, 
+    "448": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 448, 
+        "zipcode": 10021
+    }, 
+    "443": {
+        "job": 16, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 443, 
+        "zipcode": 33308
+    }, 
+    "442": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 442, 
+        "zipcode": 85282
+    }, 
+    "441": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 441, 
+        "zipcode": 55013
+    }, 
+    "440": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 440, 
+        "zipcode": 48076
+    }, 
+    "447": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 447, 
+        "zipcode": 55113
+    }, 
+    "446": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 57, 
+        "id": 446, 
+        "zipcode": 60201
+    }, 
+    "445": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 445, 
+        "zipcode": 92653
+    }, 
+    "444": {
+        "job": 9, 
+        "gender": 1, 
+        "age": 51, 
+        "id": 444, 
+        "zipcode": 53202
+    }, 
+    "108": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 108, 
+        "zipcode": 63130
+    }, 
+    "109": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 109, 
+        "zipcode": 55423
+    }, 
+    "102": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 102, 
+        "zipcode": 30220
+    }, 
+    "103": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 103, 
+        "zipcode": 55108
+    }, 
+    "100": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 100, 
+        "zipcode": 90254
+    }, 
+    "101": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 15, 
+        "id": 101, 
+        "zipcode": 5146
+    }, 
+    "106": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 61, 
+        "id": 106, 
+        "zipcode": 55125
+    }, 
+    "107": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 107, 
+        "zipcode": 60466
+    }, 
+    "104": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 104, 
+        "zipcode": 55108
+    }, 
+    "105": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 105, 
+        "zipcode": 94043
+    }, 
+    "902": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 45, 
+        "id": 902, 
+        "zipcode": 97203
+    }, 
+    "903": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 903, 
+        "zipcode": 20850
+    }, 
+    "39": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 41, 
+        "id": 39, 
+        "zipcode": 1040
+    }, 
+    "38": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 38, 
+        "zipcode": 54467
+    }, 
+    "906": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 906, 
+        "zipcode": 70124
+    }, 
+    "907": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 25, 
+        "id": 907, 
+        "zipcode": 80526
+    }, 
+    "904": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 17, 
+        "id": 904, 
+        "zipcode": 61073
+    }, 
+    "905": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 905, 
+        "zipcode": 30350
+    }, 
+    "33": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 33, 
+        "zipcode": 27510
+    }, 
+    "32": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 32, 
+        "zipcode": 78741
+    }, 
+    "31": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 31, 
+        "zipcode": 10003
+    }, 
+    "30": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 7, 
+        "id": 30, 
+        "zipcode": 55436
+    }, 
+    "37": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 37, 
+        "zipcode": 55105
+    }, 
+    "36": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 19, 
+        "id": 36, 
+        "zipcode": 93117
+    }, 
+    "35": {
+        "job": 8, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 35, 
+        "zipcode": 42459
+    }, 
+    "34": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 38, 
+        "id": 34, 
+        "zipcode": 42141
+    }, 
+    "641": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 641, 
+        "zipcode": 60626
+    }, 
+    "640": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 640, 
+        "zipcode": 61801
+    }, 
+    "643": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 643, 
+        "zipcode": 55122
+    }, 
+    "642": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 642, 
+        "zipcode": 95521
+    }, 
+    "645": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 645, 
+        "zipcode": 53211
+    }, 
+    "644": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 644, 
+        "zipcode": 63645
+    }, 
+    "438": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 51, 
+        "id": 438, 
+        "zipcode": 43204
+    }, 
+    "439": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 23, 
+        "id": 439, 
+        "zipcode": 20817
+    }, 
+    "436": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 436, 
+        "zipcode": 17345
+    }, 
+    "437": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 437, 
+        "zipcode": 20009
+    }, 
+    "434": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 16, 
+        "id": 434, 
+        "zipcode": 49705
+    }, 
+    "435": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 435, 
+        "zipcode": 60007
+    }, 
+    "432": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 432, 
+        "zipcode": 50311
+    }, 
+    "433": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 433, 
+        "zipcode": 11211
+    }, 
+    "430": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 430, 
+        "zipcode": 98199
+    }, 
+    "431": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 431, 
+        "zipcode": 92629
+    }, 
+    "339": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 339, 
+        "zipcode": 37901
+    }, 
+    "338": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 39, 
+        "id": 338, 
+        "zipcode": 59717
+    }, 
+    "335": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 335, 
+        "zipcode": 33775
+    }, 
+    "334": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 334, 
+        "zipcode": 30002
+    }, 
+    "337": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 337, 
+        "zipcode": 10522
+    }, 
+    "336": {
+        "job": 16, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 336, 
+        "zipcode": 42101
+    }, 
+    "331": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 331, 
+        "zipcode": 91344
+    }, 
+    "330": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 330, 
+        "zipcode": 33884
+    }, 
+    "333": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 333, 
+        "zipcode": "V0R2M"
+    }, 
+    "332": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 332, 
+        "zipcode": 40504
+    }, 
+    "744": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 744, 
+        "zipcode": 47024
+    }, 
+    "745": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 745, 
+        "zipcode": 55113
+    }, 
+    "854": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 854, 
+        "zipcode": 55408
+    }, 
+    "818": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 818, 
+        "zipcode": 27514
+    }, 
+    "856": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 43, 
+        "id": 856, 
+        "zipcode": 97215
+    }, 
+    "857": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 857, 
+        "zipcode": "V1G4L"
+    }, 
+    "850": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 850, 
+        "zipcode": 78390
+    }, 
+    "851": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 18, 
+        "id": 851, 
+        "zipcode": 29646
+    }, 
+    "852": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 852, 
+        "zipcode": 94086
+    }, 
+    "819": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 59, 
+        "id": 819, 
+        "zipcode": 40205
+    }, 
+    "858": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 63, 
+        "id": 858, 
+        "zipcode": 9645
+    }, 
+    "859": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 859, 
+        "zipcode": 6492
+    }, 
+    "748": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 748, 
+        "zipcode": 94720
+    }, 
+    "6": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 6, 
+        "zipcode": 98101
+    }, 
+    "900": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 60, 
+        "id": 900, 
+        "zipcode": 18505
+    }, 
+    "848": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 848, 
+        "zipcode": 2146
+    }, 
+    "99": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 99, 
+        "zipcode": 63129
+    }, 
+    "98": {
+        "job": 6, 
+        "gender": 1, 
+        "age": 49, 
+        "id": 98, 
+        "zipcode": 90291
+    }, 
+    "844": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 844, 
+        "zipcode": 95662
+    }, 
+    "91": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 55, 
+        "id": 91, 
+        "zipcode": 1913
+    }, 
+    "90": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 60, 
+        "id": 90, 
+        "zipcode": 78155
+    }, 
+    "93": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 93, 
+        "zipcode": 23112
+    }, 
+    "92": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 92, 
+        "zipcode": 80525
+    }, 
+    "95": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 95, 
+        "zipcode": 10707
+    }, 
+    "94": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 94, 
+        "zipcode": 71457
+    }, 
+    "97": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 43, 
+        "id": 97, 
+        "zipcode": 98006
+    }, 
+    "96": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 25, 
+        "id": 96, 
+        "zipcode": 75206
+    }, 
+    "814": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 814, 
+        "zipcode": 12345
+    }, 
+    "815": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 815, 
+        "zipcode": 28806
+    }, 
+    "740": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 25, 
+        "id": 740, 
+        "zipcode": 22206
+    }, 
+    "741": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 741, 
+        "zipcode": 63108
+    }, 
+    "742": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 742, 
+        "zipcode": 29210
+    }, 
+    "743": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 743, 
+        "zipcode": 92660
+    }, 
+    "559": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 69, 
+        "id": 559, 
+        "zipcode": 10022
+    }, 
+    "558": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 56, 
+        "id": 558, 
+        "zipcode": 63132
+    }, 
+    "746": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 746, 
+        "zipcode": 19047
+    }, 
+    "747": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 747, 
+        "zipcode": 93612
+    }, 
+    "555": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 555, 
+        "zipcode": 23227
+    }, 
+    "554": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 554, 
+        "zipcode": 62901
+    }, 
+    "557": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 557, 
+        "zipcode": 11217
+    }, 
+    "556": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 556, 
+        "zipcode": 30606
+    }, 
+    "551": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 551, 
+        "zipcode": 55414
+    }, 
+    "550": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 16, 
+        "id": 550, 
+        "zipcode": 95453
+    }, 
+    "553": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 58, 
+        "id": 553, 
+        "zipcode": 62901
+    }, 
+    "552": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 552, 
+        "zipcode": 68147
+    }, 
+    "238": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 42, 
+        "id": 238, 
+        "zipcode": 44124
+    }, 
+    "239": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 239, 
+        "zipcode": 95628
+    }, 
+    "234": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 60, 
+        "id": 234, 
+        "zipcode": 94702
+    }, 
+    "235": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 235, 
+        "zipcode": 22973
+    }, 
+    "236": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 236, 
+        "zipcode": 53214
+    }, 
+    "237": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 237, 
+        "zipcode": 63146
+    }, 
+    "230": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 230, 
+        "zipcode": 14476
+    }, 
+    "231": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 231, 
+        "zipcode": 1080
+    }, 
+    "232": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 232, 
+        "zipcode": 99709
+    }, 
+    "233": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 233, 
+        "zipcode": 98682
+    }, 
+    "1": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 1, 
+        "zipcode": 85711
+    }, 
+    "614": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 54, 
+        "id": 614, 
+        "zipcode": 80227
+    }, 
+    "146": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 146, 
+        "zipcode": 83814
+    }, 
+    "147": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 40, 
+        "id": 147, 
+        "zipcode": 2143
+    }, 
+    "144": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 53, 
+        "id": 144, 
+        "zipcode": 20910
+    }, 
+    "145": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 145, 
+        "zipcode": "V3N4P"
+    }, 
+    "142": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 13, 
+        "id": 142, 
+        "zipcode": 48118
+    }, 
+    "143": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 143, 
+        "zipcode": 8832
+    }, 
+    "140": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 140, 
+        "zipcode": 32250
+    }, 
+    "141": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 141, 
+        "zipcode": 36117
+    }, 
+    "612": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 612, 
+        "zipcode": 79070
+    }, 
+    "613": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 37, 
+        "id": 613, 
+        "zipcode": 29678
+    }, 
+    "610": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 610, 
+        "zipcode": 21227
+    }, 
+    "611": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 611, 
+        "zipcode": 77008
+    }, 
+    "616": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 55, 
+        "id": 616, 
+        "zipcode": 50613
+    }, 
+    "617": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 617, 
+        "zipcode": 11201
+    }, 
+    "148": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 148, 
+        "zipcode": 97006
+    }, 
+    "149": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 149, 
+        "zipcode": 17325
+    }, 
+    "912": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 912, 
+        "zipcode": 6512
+    }, 
+    "942": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 48, 
+        "id": 942, 
+        "zipcode": 78209
+    }, 
+    "943": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 943, 
+        "zipcode": 77841
+    }, 
+    "940": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 940, 
+        "zipcode": 2215
+    }, 
+    "941": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 941, 
+        "zipcode": 97229
+    }, 
+    "768": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 768, 
+        "zipcode": 12866
+    }, 
+    "689": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 689, 
+        "zipcode": 45439
+    }, 
+    "688": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 37, 
+        "id": 688, 
+        "zipcode": 60476
+    }, 
+    "685": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 32, 
+        "id": 685, 
+        "zipcode": 55409
+    }, 
+    "684": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 684, 
+        "zipcode": 55414
+    }, 
+    "687": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 31, 
+        "id": 687, 
+        "zipcode": 27713
+    }, 
+    "686": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 686, 
+        "zipcode": 26506
+    }, 
+    "681": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 681, 
+        "zipcode": 97208
+    }, 
+    "680": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 680, 
+        "zipcode": 90405
+    }, 
+    "683": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 683, 
+        "zipcode": 23509
+    }, 
+    "682": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 682, 
+        "zipcode": 55128
+    }, 
+    "623": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 50, 
+        "id": 623, 
+        "zipcode": 60187
+    }, 
+    "622": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 622, 
+        "zipcode": 14850
+    }, 
+    "133": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 53, 
+        "id": 133, 
+        "zipcode": 78602
+    }, 
+    "132": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 132, 
+        "zipcode": 94612
+    }, 
+    "131": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 59, 
+        "id": 131, 
+        "zipcode": 15237
+    }, 
+    "130": {
+        "job": 12, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 130, 
+        "zipcode": 60115
+    }, 
+    "137": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 137, 
+        "zipcode": 84408
+    }, 
+    "136": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 136, 
+        "zipcode": 97365
+    }, 
+    "135": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 135, 
+        "zipcode": 38401
+    }, 
+    "134": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 134, 
+        "zipcode": 80236
+    }, 
+    "494": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 38, 
+        "id": 494, 
+        "zipcode": 49428
+    }, 
+    "495": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 495, 
+        "zipcode": 3052
+    }, 
+    "139": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 139, 
+        "zipcode": 8904
+    }, 
+    "138": {
+        "job": 2, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 138, 
+        "zipcode": 53211
+    }, 
+    "490": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 490, 
+        "zipcode": "V5A2B"
+    }, 
+    "491": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 43, 
+        "id": 491, 
+        "zipcode": 53711
+    }, 
+    "492": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 57, 
+        "id": 492, 
+        "zipcode": 94618
+    }, 
+    "493": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 493, 
+        "zipcode": 60090
+    }, 
+    "24": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 21, 
+        "id": 24, 
+        "zipcode": 94533
+    }, 
+    "25": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 25, 
+        "zipcode": 55107
+    }, 
+    "26": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 26, 
+        "zipcode": 21044
+    }, 
+    "27": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 40, 
+        "id": 27, 
+        "zipcode": 30030
+    }, 
+    "20": {
+        "job": 8, 
+        "gender": 1, 
+        "age": 42, 
+        "id": 20, 
+        "zipcode": 95660
+    }, 
+    "21": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 21, 
+        "zipcode": 30068
+    }, 
+    "22": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 22, 
+        "zipcode": 40206
+    }, 
+    "23": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 23, 
+        "zipcode": 48197
+    }, 
+    "927": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 927, 
+        "zipcode": 55428
+    }, 
+    "28": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 28, 
+        "zipcode": 55369
+    }, 
+    "29": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 41, 
+        "id": 29, 
+        "zipcode": 94043
+    }, 
+    "407": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 407, 
+        "zipcode": 3261
+    }, 
+    "406": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 52, 
+        "id": 406, 
+        "zipcode": 93109
+    }, 
+    "405": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 22, 
+        "id": 405, 
+        "zipcode": 10019
+    }, 
+    "404": {
+        "job": 14, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 404, 
+        "zipcode": 55108
+    }, 
+    "403": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 403, 
+        "zipcode": 6811
+    }, 
+    "402": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 402, 
+        "zipcode": 95129
+    }, 
+    "401": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 46, 
+        "id": 401, 
+        "zipcode": 84107
+    }, 
+    "400": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 33, 
+        "id": 400, 
+        "zipcode": 78213
+    }, 
+    "933": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 933, 
+        "zipcode": 48105
+    }, 
+    "932": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 58, 
+        "id": 932, 
+        "zipcode": 6437
+    }, 
+    "931": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 60, 
+        "id": 931, 
+        "zipcode": 33556
+    }, 
+    "930": {
+        "job": 17, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 930, 
+        "zipcode": 7310
+    }, 
+    "937": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 937, 
+        "zipcode": 98072
+    }, 
+    "629": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 46, 
+        "id": 629, 
+        "zipcode": 44224
+    }, 
+    "409": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 409, 
+        "zipcode": 98225
+    }, 
+    "408": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 408, 
+        "zipcode": 61755
+    }, 
+    "628": {
+        "job": 12, 
+        "gender": 0, 
+        "age": 13, 
+        "id": 628, 
+        "zipcode": 94306
+    }, 
+    "758": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 758, 
+        "zipcode": 53706
+    }, 
+    "379": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 379, 
+        "zipcode": 98117
+    }, 
+    "378": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 378, 
+        "zipcode": 2859
+    }, 
+    "829": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 829, 
+        "zipcode": 80209
+    }, 
+    "828": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 828, 
+        "zipcode": 85282
+    }, 
+    "371": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 371, 
+        "zipcode": 99206
+    }, 
+    "370": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 52, 
+        "id": 370, 
+        "zipcode": 8534
+    }, 
+    "373": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 24, 
+        "id": 373, 
+        "zipcode": 55116
+    }, 
+    "372": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 25, 
+        "id": 372, 
+        "zipcode": 66046
+    }, 
+    "375": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 375, 
+        "zipcode": 37777
+    }, 
+    "374": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 374, 
+        "zipcode": 78746
+    }, 
+    "377": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 377, 
+        "zipcode": 18015
+    }, 
+    "376": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 376, 
+        "zipcode": 10010
+    }, 
+    "708": {
+        "job": 8, 
+        "gender": 1, 
+        "age": 26, 
+        "id": 708, 
+        "zipcode": 96349
+    }, 
+    "709": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 709, 
+        "zipcode": "N4T1A"
+    }, 
+    "704": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 51, 
+        "id": 704, 
+        "zipcode": 91105
+    }, 
+    "705": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 21, 
+        "id": 705, 
+        "zipcode": 54494
+    }, 
+    "706": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 706, 
+        "zipcode": 55454
+    }, 
+    "707": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 56, 
+        "id": 707, 
+        "zipcode": 19146
+    }, 
+    "700": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 700, 
+        "zipcode": 76309
+    }, 
+    "618": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 15, 
+        "id": 618, 
+        "zipcode": 44212
+    }, 
+    "702": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 702, 
+        "zipcode": 89104
+    }, 
+    "703": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 703, 
+        "zipcode": 49512
+    }, 
+    "393": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 393, 
+        "zipcode": 83686
+    }, 
+    "392": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 52, 
+        "id": 392, 
+        "zipcode": 59801
+    }, 
+    "88": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 49, 
+        "id": 88, 
+        "zipcode": 11701
+    }, 
+    "89": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 43, 
+        "id": 89, 
+        "zipcode": 68106
+    }, 
+    "397": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 397, 
+        "zipcode": 27514
+    }, 
+    "396": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 57, 
+        "id": 396, 
+        "zipcode": 94551
+    }, 
+    "395": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 43, 
+        "id": 395, 
+        "zipcode": 44092
+    }, 
+    "394": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 394, 
+        "zipcode": 96819
+    }, 
+    "82": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 82, 
+        "zipcode": 22902
+    }, 
+    "83": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 83, 
+        "zipcode": 44133
+    }, 
+    "80": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 34, 
+        "id": 80, 
+        "zipcode": 52241
+    }, 
+    "81": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 81, 
+        "zipcode": 21218
+    }, 
+    "86": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 86, 
+        "zipcode": 46005
+    }, 
+    "87": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 87, 
+        "zipcode": 89503
+    }, 
+    "84": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 84, 
+        "zipcode": 55369
+    }, 
+    "85": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 85, 
+        "zipcode": 20003
+    }, 
+    "797": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 797, 
+        "zipcode": 62522
+    }, 
+    "796": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 32, 
+        "id": 796, 
+        "zipcode": 33755
+    }, 
+    "795": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 795, 
+        "zipcode": 8610
+    }, 
+    "794": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 794, 
+        "zipcode": 57197
+    }, 
+    "793": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 793, 
+        "zipcode": 85281
+    }, 
+    "792": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 792, 
+        "zipcode": 12205
+    }, 
+    "791": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 791, 
+        "zipcode": 20064
+    }, 
+    "790": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 790, 
+        "zipcode": 80913
+    }, 
+    "799": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 49, 
+        "id": 799, 
+        "zipcode": 19716
+    }, 
+    "798": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 40, 
+        "id": 798, 
+        "zipcode": 64131
+    }, 
+    "7": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 57, 
+        "id": 7, 
+        "zipcode": 91344
+    }, 
+    "601": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 19, 
+        "id": 601, 
+        "zipcode": 99687
+    }, 
+    "607": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 49, 
+        "id": 607, 
+        "zipcode": 2154
+    }, 
+    "586": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 586, 
+        "zipcode": 79508
+    }, 
+    "587": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 587, 
+        "zipcode": 14216
+    }, 
+    "584": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 584, 
+        "zipcode": 27511
+    }, 
+    "585": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 69, 
+        "id": 585, 
+        "zipcode": 98501
+    }, 
+    "582": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 582, 
+        "zipcode": 93003
+    }, 
+    "583": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 583, 
+        "zipcode": 29631
+    }, 
+    "580": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 16, 
+        "id": 580, 
+        "zipcode": 17961
+    }, 
+    "581": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 581, 
+        "zipcode": 94131
+    }, 
+    "588": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 588, 
+        "zipcode": 93063
+    }, 
+    "589": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 589, 
+        "zipcode": 90034
+    }, 
+    "245": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 245, 
+        "zipcode": 55109
+    }, 
+    "244": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 244, 
+        "zipcode": 80525
+    }, 
+    "247": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 247, 
+        "zipcode": 20770
+    }, 
+    "246": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 246, 
+        "zipcode": 28734
+    }, 
+    "241": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 26, 
+        "id": 241, 
+        "zipcode": 20001
+    }, 
+    "240": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 23, 
+        "id": 240, 
+        "zipcode": 20784
+    }, 
+    "243": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 243, 
+        "zipcode": 60201
+    }, 
+    "242": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 242, 
+        "zipcode": 31404
+    }, 
+    "615": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 615, 
+        "zipcode": 27705
+    }, 
+    "249": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 249, 
+        "zipcode": 84103
+    }, 
+    "248": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 248, 
+        "zipcode": 37235
+    }, 
+    "924": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 924, 
+        "zipcode": 11753
+    }, 
+    "925": {
+        "job": 16, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 925, 
+        "zipcode": 49036
+    }, 
+    "519": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 519, 
+        "zipcode": 55320
+    }, 
+    "518": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 49, 
+        "id": 518, 
+        "zipcode": 99709
+    }, 
+    "926": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 926, 
+        "zipcode": 1701
+    }, 
+    "511": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 511, 
+        "zipcode": 21250
+    }, 
+    "510": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 510, 
+        "zipcode": 98038
+    }, 
+    "513": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 43, 
+        "id": 513, 
+        "zipcode": 26241
+    }, 
+    "512": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 512, 
+        "zipcode": 20090
+    }, 
+    "515": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 53, 
+        "id": 515, 
+        "zipcode": 49508
+    }, 
+    "514": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 514, 
+        "zipcode": 20707
+    }, 
+    "517": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 517, 
+        "zipcode": 55454
+    }, 
+    "516": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 53, 
+        "id": 516, 
+        "zipcode": 10021
+    }, 
+    "458": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 458, 
+        "zipcode": "Y1A6B"
+    }, 
+    "459": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 459, 
+        "zipcode": 29201
+    }, 
+    "621": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 621, 
+        "zipcode": 60402
+    }, 
+    "620": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 620, 
+        "zipcode": 81648
+    }, 
+    "627": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 627, 
+        "zipcode": 8034
+    }, 
+    "626": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 626, 
+        "zipcode": 19807
+    }, 
+    "625": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 625, 
+        "zipcode": 20723
+    }, 
+    "624": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 624, 
+        "zipcode": 30067
+    }, 
+    "450": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 450, 
+        "zipcode": 11758
+    }, 
+    "451": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 16, 
+        "id": 451, 
+        "zipcode": 48446
+    }, 
+    "452": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 452, 
+        "zipcode": 28018
+    }, 
+    "453": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 18, 
+        "id": 453, 
+        "zipcode": 6333
+    }, 
+    "454": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 57, 
+        "id": 454, 
+        "zipcode": 97330
+    }, 
+    "455": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 455, 
+        "zipcode": 83709
+    }, 
+    "456": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 456, 
+        "zipcode": 31820
+    }, 
+    "457": {
+        "job": 16, 
+        "gender": 1, 
+        "age": 33, 
+        "id": 457, 
+        "zipcode": 30011
+    }, 
+    "179": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 15, 
+        "id": 179, 
+        "zipcode": 20755
+    }, 
+    "178": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 178, 
+        "zipcode": 49512
+    }, 
+    "177": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 177, 
+        "zipcode": 19104
+    }, 
+    "176": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 176, 
+        "zipcode": 7030
+    }, 
+    "175": {
+        "job": 17, 
+        "gender": 1, 
+        "age": 26, 
+        "id": 175, 
+        "zipcode": 21911
+    }, 
+    "174": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 174, 
+        "zipcode": 52302
+    }, 
+    "173": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 56, 
+        "id": 173, 
+        "zipcode": 22306
+    }, 
+    "172": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 55, 
+        "id": 172, 
+        "zipcode": 22207
+    }, 
+    "171": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 48, 
+        "id": 171, 
+        "zipcode": 78750
+    }, 
+    "170": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 53, 
+        "id": 170, 
+        "zipcode": 30067
+    }, 
+    "656": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 656, 
+        "zipcode": 10314
+    }, 
+    "657": {
+        "job": 12, 
+        "gender": 1, 
+        "age": 26, 
+        "id": 657, 
+        "zipcode": 78704
+    }, 
+    "654": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 654, 
+        "zipcode": 78739
+    }, 
+    "253": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 26, 
+        "id": 253, 
+        "zipcode": 22903
+    }, 
+    "182": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 182, 
+        "zipcode": 33884
+    }, 
+    "183": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 183, 
+        "zipcode": 27708
+    }, 
+    "180": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 22, 
+        "id": 180, 
+        "zipcode": 60202
+    }, 
+    "181": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 181, 
+        "zipcode": 21218
+    }, 
+    "186": {
+        "job": 6, 
+        "gender": 1, 
+        "age": 39, 
+        "id": 186, 
+        "zipcode": 0
+    }, 
+    "187": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 187, 
+        "zipcode": 16801
+    }, 
+    "184": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 184, 
+        "zipcode": 76013
+    }, 
+    "185": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 53, 
+        "id": 185, 
+        "zipcode": 97403
+    }, 
+    "886": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 886, 
+        "zipcode": 61820
+    }, 
+    "652": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 652, 
+        "zipcode": 22911
+    }, 
+    "188": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 188, 
+        "zipcode": 29440
+    }, 
+    "189": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 189, 
+        "zipcode": 95014
+    }, 
+    "658": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 658, 
+        "zipcode": 92626
+    }, 
+    "653": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 653, 
+        "zipcode": 55105
+    }, 
+    "650": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 650, 
+        "zipcode": 83814
+    }, 
+    "651": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 65, 
+        "id": 651, 
+        "zipcode": 2903
+    }, 
+    "764": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 764, 
+        "zipcode": 62903
+    }, 
+    "11": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 39, 
+        "id": 11, 
+        "zipcode": 30329
+    }, 
+    "10": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 53, 
+        "id": 10, 
+        "zipcode": 90703
+    }, 
+    "13": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 13, 
+        "zipcode": 29206
+    }, 
+    "12": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 12, 
+        "zipcode": 6405
+    }, 
+    "15": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 49, 
+        "id": 15, 
+        "zipcode": 97301
+    }, 
+    "14": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 14, 
+        "zipcode": 55106
+    }, 
+    "17": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 17, 
+        "zipcode": 6355
+    }, 
+    "16": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 16, 
+        "zipcode": 10309
+    }, 
+    "19": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 19, 
+        "zipcode": 2138
+    }, 
+    "18": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 18, 
+        "zipcode": 37212
+    }, 
+    "863": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 863, 
+        "zipcode": 60089
+    }, 
+    "862": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 862, 
+        "zipcode": 13820
+    }, 
+    "865": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 865, 
+        "zipcode": 11231
+    }, 
+    "864": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 864, 
+        "zipcode": 63021
+    }, 
+    "867": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 867, 
+        "zipcode": 92507
+    }, 
+    "866": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 866, 
+        "zipcode": 60302
+    }, 
+    "884": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 884, 
+        "zipcode": 55337
+    }, 
+    "938": {
+        "job": 19, 
+        "gender": 1, 
+        "age": 38, 
+        "id": 938, 
+        "zipcode": 55038
+    }, 
+    "659": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 659, 
+        "zipcode": 54248
+    }, 
+    "883": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 883, 
+        "zipcode": 50266
+    }, 
+    "753": {
+        "job": 16, 
+        "gender": 0, 
+        "age": 56, 
+        "id": 753, 
+        "zipcode": 91206
+    }, 
+    "881": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 881, 
+        "zipcode": 43017
+    }, 
+    "880": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 13, 
+        "id": 880, 
+        "zipcode": 83702
+    }, 
+    "887": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 14, 
+        "id": 887, 
+        "zipcode": 27249
+    }, 
+    "831": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 831, 
+        "zipcode": 33765
+    }, 
+    "885": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 885, 
+        "zipcode": 95316
+    }, 
+    "752": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 60, 
+        "id": 752, 
+        "zipcode": 21201
+    }, 
+    "928": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 928, 
+        "zipcode": 55408
+    }, 
+    "62": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 62, 
+        "zipcode": 97214
+    }, 
+    "888": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 41, 
+        "id": 888, 
+        "zipcode": 17036
+    }, 
+    "756": {
+        "job": 12, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 756, 
+        "zipcode": 90247
+    }, 
+    "929": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 929, 
+        "zipcode": 53711
+    }, 
+    "809": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 50, 
+        "id": 809, 
+        "zipcode": 30803
+    }, 
+    "322": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 322, 
+        "zipcode": 50613
+    }, 
+    "323": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 323, 
+        "zipcode": 19149
+    }, 
+    "320": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 320, 
+        "zipcode": 24060
+    }, 
+    "321": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 49, 
+        "id": 321, 
+        "zipcode": 55413
+    }, 
+    "326": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 41, 
+        "id": 326, 
+        "zipcode": 15235
+    }, 
+    "327": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 327, 
+        "zipcode": 11101
+    }, 
+    "324": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 21, 
+        "id": 324, 
+        "zipcode": 2176
+    }, 
+    "325": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 325, 
+        "zipcode": 2139
+    }, 
+    "328": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 328, 
+        "zipcode": 6779
+    }, 
+    "329": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 329, 
+        "zipcode": 1720
+    }, 
+    "759": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 759, 
+        "zipcode": 68503
+    }, 
+    "201": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 201, 
+        "zipcode": "E2A4H"
+    }, 
+    "200": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 200, 
+        "zipcode": 93402
+    }, 
+    "203": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 25, 
+        "id": 203, 
+        "zipcode": 32301
+    }, 
+    "202": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 41, 
+        "id": 202, 
+        "zipcode": 60201
+    }, 
+    "205": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 205, 
+        "zipcode": 6371
+    }, 
+    "204": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 52, 
+        "id": 204, 
+        "zipcode": 10960
+    }, 
+    "207": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 207, 
+        "zipcode": 92037
+    }, 
+    "206": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 14, 
+        "id": 206, 
+        "zipcode": 53115
+    }, 
+    "209": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 33, 
+        "id": 209, 
+        "zipcode": 85710
+    }, 
+    "208": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 43, 
+        "id": 208, 
+        "zipcode": 1720
+    }, 
+    "779": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 779, 
+        "zipcode": "K7L5J"
+    }, 
+    "778": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 778, 
+        "zipcode": 1960
+    }, 
+    "889": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 889, 
+        "zipcode": 78704
+    }, 
+    "77": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 77, 
+        "zipcode": 29379
+    }, 
+    "76": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 76, 
+        "zipcode": 2215
+    }, 
+    "75": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 75, 
+        "zipcode": 8816
+    }, 
+    "74": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 74, 
+        "zipcode": "T8H1N"
+    }, 
+    "73": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 73, 
+        "zipcode": 41850
+    }, 
+    "72": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 48, 
+        "id": 72, 
+        "zipcode": 73034
+    }, 
+    "71": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 71, 
+        "zipcode": 98034
+    }, 
+    "70": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 70, 
+        "zipcode": 60067
+    }, 
+    "655": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 50, 
+        "id": 655, 
+        "zipcode": 60657
+    }, 
+    "79": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 39, 
+        "id": 79, 
+        "zipcode": 3755
+    }, 
+    "78": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 78, 
+        "zipcode": 61801
+    }, 
+    "2": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 53, 
+        "id": 2, 
+        "zipcode": 94043
+    }, 
+    "805": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 805, 
+        "zipcode": 20009
+    }, 
+    "804": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 804, 
+        "zipcode": 61820
+    }, 
+    "669": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 669, 
+        "zipcode": 20009
+    }, 
+    "668": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 668, 
+        "zipcode": 10016
+    }, 
+    "667": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 667, 
+        "zipcode": 1970
+    }, 
+    "666": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 666, 
+        "zipcode": 61820
+    }, 
+    "665": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 665, 
+        "zipcode": 55412
+    }, 
+    "664": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 664, 
+        "zipcode": 94115
+    }, 
+    "663": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 663, 
+        "zipcode": 19341
+    }, 
+    "662": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 55, 
+        "id": 662, 
+        "zipcode": 19102
+    }, 
+    "661": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 661, 
+        "zipcode": 98121
+    }, 
+    "660": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 660, 
+        "zipcode": 77380
+    }, 
+    "769": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 769, 
+        "zipcode": 6927
+    }, 
+    "692": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 692, 
+        "zipcode": 18053
+    }, 
+    "693": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 43, 
+        "id": 693, 
+        "zipcode": 85210
+    }, 
+    "690": {
+        "job": 16, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 690, 
+        "zipcode": 63304
+    }, 
+    "691": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 691, 
+        "zipcode": 60089
+    }, 
+    "696": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 55, 
+        "id": 696, 
+        "zipcode": 94920
+    }, 
+    "697": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 697, 
+        "zipcode": 77042
+    }, 
+    "694": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 60, 
+        "id": 694, 
+        "zipcode": 6365
+    }, 
+    "695": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 695, 
+        "zipcode": 38115
+    }, 
+    "698": {
+        "job": 14, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 698, 
+        "zipcode": 6906
+    }, 
+    "699": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 699, 
+        "zipcode": 96754
+    }, 
+    "542": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 542, 
+        "zipcode": 60515
+    }, 
+    "543": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 543, 
+        "zipcode": 95123
+    }, 
+    "540": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 540, 
+        "zipcode": 91201
+    }, 
+    "541": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 19, 
+        "id": 541, 
+        "zipcode": 84302
+    }, 
+    "546": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 546, 
+        "zipcode": 22911
+    }, 
+    "547": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 547, 
+        "zipcode": 14534
+    }, 
+    "544": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 544, 
+        "zipcode": 29464
+    }, 
+    "545": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 545, 
+        "zipcode": 8052
+    }, 
+    "8": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 8, 
+        "zipcode": 5201
+    }, 
+    "548": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 548, 
+        "zipcode": 95468
+    }, 
+    "549": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 549, 
+        "zipcode": 45680
+    }, 
+    "68": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 68, 
+        "zipcode": 22904
+    }, 
+    "598": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 40, 
+        "id": 598, 
+        "zipcode": 43085
+    }, 
+    "869": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 869, 
+        "zipcode": 10025
+    }, 
+    "868": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 868, 
+        "zipcode": 55303
+    }, 
+    "120": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 47, 
+        "id": 120, 
+        "zipcode": 6260
+    }, 
+    "121": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 54, 
+        "id": 121, 
+        "zipcode": 99603
+    }, 
+    "122": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 32, 
+        "id": 122, 
+        "zipcode": 22206
+    }, 
+    "123": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 48, 
+        "id": 123, 
+        "zipcode": 20008
+    }, 
+    "124": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 124, 
+        "zipcode": 60615
+    }, 
+    "125": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 125, 
+        "zipcode": 22202
+    }, 
+    "126": {
+        "job": 9, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 126, 
+        "zipcode": 20015
+    }, 
+    "127": {
+        "job": 12, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 127, 
+        "zipcode": 73439
+    }, 
+    "128": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 24, 
+        "id": 128, 
+        "zipcode": 20009
+    }, 
+    "129": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 36, 
+        "id": 129, 
+        "zipcode": 7039
+    }, 
+    "765": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 765, 
+        "zipcode": 33066
+    }, 
+    "414": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 414, 
+        "zipcode": 38115
+    }, 
+    "415": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 415, 
+        "zipcode": 85711
+    }, 
+    "416": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 416, 
+        "zipcode": 92626
+    }, 
+    "417": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 417, 
+        "zipcode": 48103
+    }, 
+    "410": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 410, 
+        "zipcode": 94025
+    }, 
+    "411": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 411, 
+        "zipcode": 44691
+    }, 
+    "412": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 412, 
+        "zipcode": 15222
+    }, 
+    "413": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 55, 
+        "id": 413, 
+        "zipcode": 78212
+    }, 
+    "920": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 920, 
+        "zipcode": 90008
+    }, 
+    "498": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 498, 
+        "zipcode": 55408
+    }, 
+    "922": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 922, 
+        "zipcode": 21114
+    }, 
+    "923": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 923, 
+        "zipcode": "E2E3R"
+    }, 
+    "418": {
+        "job": 12, 
+        "gender": 1, 
+        "age": 55, 
+        "id": 418, 
+        "zipcode": 21206
+    }, 
+    "419": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 419, 
+        "zipcode": 43215
+    }, 
+    "776": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 776, 
+        "zipcode": 51157
+    }, 
+    "499": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 499, 
+        "zipcode": 75006
+    }, 
+    "319": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 319, 
+        "zipcode": 22030
+    }, 
+    "318": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 65, 
+        "id": 318, 
+        "zipcode": 6518
+    }, 
+    "313": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 41, 
+        "id": 313, 
+        "zipcode": 60035
+    }, 
+    "312": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 312, 
+        "zipcode": 2110
+    }, 
+    "311": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 311, 
+        "zipcode": 73071
+    }, 
+    "310": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 310, 
+        "zipcode": 91711
+    }, 
+    "317": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 317, 
+        "zipcode": 13210
+    }, 
+    "316": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 43, 
+        "id": 316, 
+        "zipcode": 77009
+    }, 
+    "315": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 315, 
+        "zipcode": 18301
+    }, 
+    "314": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 314, 
+        "zipcode": 8043
+    }, 
+    "861": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 38, 
+        "id": 861, 
+        "zipcode": 14085
+    }, 
+    "921": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 921, 
+        "zipcode": 98801
+    }, 
+    "496": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 21, 
+        "id": 496, 
+        "zipcode": 55414
+    }, 
+    "832": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 832, 
+        "zipcode": 77042
+    }, 
+    "833": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 833, 
+        "zipcode": 90019
+    }, 
+    "830": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 830, 
+        "zipcode": 53066
+    }, 
+    "497": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 497, 
+        "zipcode": 50112
+    }, 
+    "836": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 836, 
+        "zipcode": 10018
+    }, 
+    "837": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 36, 
+        "id": 837, 
+        "zipcode": 55409
+    }, 
+    "834": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 834, 
+        "zipcode": 64153
+    }, 
+    "835": {
+        "job": 6, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 835, 
+        "zipcode": 11577
+    }, 
+    "838": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 838, 
+        "zipcode": 1375
+    }, 
+    "839": {
+        "job": 5, 
+        "gender": 1, 
+        "age": 38, 
+        "id": 839, 
+        "zipcode": 90814
+    }, 
+    "808": {
+        "job": 16, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 808, 
+        "zipcode": 90016
+    }, 
+    "3": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 3, 
+        "zipcode": 32067
+    }, 
+    "725": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 725, 
+        "zipcode": 91711
+    }, 
+    "368": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 18, 
+        "id": 368, 
+        "zipcode": 92113
+    }, 
+    "369": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 369, 
+        "zipcode": 91335
+    }, 
+    "366": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 366, 
+        "zipcode": 50670
+    }, 
+    "367": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 367, 
+        "zipcode": 37411
+    }, 
+    "364": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 63, 
+        "id": 364, 
+        "zipcode": 1810
+    }, 
+    "365": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 365, 
+        "zipcode": 20009
+    }, 
+    "362": {
+        "job": 8, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 362, 
+        "zipcode": 85233
+    }, 
+    "363": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 363, 
+        "zipcode": 87501
+    }, 
+    "360": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 360, 
+        "zipcode": 98027
+    }, 
+    "361": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 361, 
+        "zipcode": 44074
+    }, 
+    "882": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 882, 
+        "zipcode": 40503
+    }, 
+    "380": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 380, 
+        "zipcode": 55117
+    }, 
+    "381": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 381, 
+        "zipcode": 94608
+    }, 
+    "382": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 382, 
+        "zipcode": 1824
+    }, 
+    "383": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 383, 
+        "zipcode": 75204
+    }, 
+    "384": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 52, 
+        "id": 384, 
+        "zipcode": 45218
+    }, 
+    "385": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 385, 
+        "zipcode": 10003
+    }, 
+    "386": {
+        "job": 16, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 386, 
+        "zipcode": 43221
+    }, 
+    "387": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 387, 
+        "zipcode": 37412
+    }, 
+    "388": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 388, 
+        "zipcode": 36106
+    }, 
+    "389": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 389, 
+        "zipcode": 83702
+    }, 
+    "784": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 784, 
+        "zipcode": 91040
+    }, 
+    "785": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 785, 
+        "zipcode": 23322
+    }, 
+    "786": {
+        "job": 4, 
+        "gender": 1, 
+        "age": 36, 
+        "id": 786, 
+        "zipcode": 1754
+    }, 
+    "787": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 787, 
+        "zipcode": 98620
+    }, 
+    "780": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 780, 
+        "zipcode": 94560
+    }, 
+    "781": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 781, 
+        "zipcode": 48825
+    }, 
+    "782": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 21, 
+        "id": 782, 
+        "zipcode": 33205
+    }, 
+    "783": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 783, 
+        "zipcode": 77081
+    }, 
+    "788": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 788, 
+        "zipcode": 5779
+    }, 
+    "789": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 789, 
+        "zipcode": 55420
+    }, 
+    "860": {
+        "job": 15, 
+        "gender": 1, 
+        "age": 70, 
+        "id": 860, 
+        "zipcode": 48322
+    }, 
+    "605": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 605, 
+        "zipcode": 33716
+    }, 
+    "579": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 579, 
+        "zipcode": 48103
+    }, 
+    "578": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 578, 
+        "zipcode": "M7A1A"
+    }, 
+    "604": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 604, 
+        "zipcode": 11787
+    }, 
+    "573": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 68, 
+        "id": 573, 
+        "zipcode": 48911
+    }, 
+    "572": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 572, 
+        "zipcode": 20003
+    }, 
+    "571": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 571, 
+        "zipcode": 1945
+    }, 
+    "570": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 570, 
+        "zipcode": 14627
+    }, 
+    "577": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 36, 
+        "id": 577, 
+        "zipcode": 77845
+    }, 
+    "576": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 576, 
+        "zipcode": 98281
+    }, 
+    "575": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 575, 
+        "zipcode": 46032
+    }, 
+    "574": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 56, 
+        "id": 574, 
+        "zipcode": 53188
+    }, 
+    "60": {
+        "job": 7, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 60, 
+        "zipcode": 6472
+    }, 
+    "61": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 61, 
+        "zipcode": 30040
+    }, 
+    "258": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 19, 
+        "id": 258, 
+        "zipcode": 77801
+    }, 
+    "259": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 259, 
+        "zipcode": 48823
+    }, 
+    "64": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 64, 
+        "zipcode": 43202
+    }, 
+    "65": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 51, 
+        "id": 65, 
+        "zipcode": 48118
+    }, 
+    "66": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 66, 
+        "zipcode": 80521
+    }, 
+    "67": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 67, 
+        "zipcode": 60402
+    }, 
+    "252": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 252, 
+        "zipcode": 7733
+    }, 
+    "69": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 69, 
+        "zipcode": 55337
+    }, 
+    "250": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 250, 
+        "zipcode": 95110
+    }, 
+    "251": {
+        "job": 2, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 251, 
+        "zipcode": 85032
+    }, 
+    "256": {
+        "job": 12, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 256, 
+        "zipcode": 39042
+    }, 
+    "257": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 257, 
+        "zipcode": 77005
+    }, 
+    "254": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 254, 
+        "zipcode": 42647
+    }, 
+    "255": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 255, 
+        "zipcode": 7029
+    }, 
+    "603": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 603, 
+        "zipcode": 47905
+    }, 
+    "602": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 47, 
+        "id": 602, 
+        "zipcode": 34656
+    }, 
+    "939": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 26, 
+        "id": 939, 
+        "zipcode": 33319
+    }, 
+    "731": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 41, 
+        "id": 731, 
+        "zipcode": 70403
+    }, 
+    "730": {
+        "job": 17, 
+        "gender": 1, 
+        "age": 31, 
+        "id": 730, 
+        "zipcode": 32114
+    }, 
+    "733": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 733, 
+        "zipcode": 60630
+    }, 
+    "732": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 28, 
+        "id": 732, 
+        "zipcode": 98405
+    }, 
+    "735": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 735, 
+        "zipcode": 85719
+    }, 
+    "734": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 25, 
+        "id": 734, 
+        "zipcode": 63108
+    }, 
+    "508": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 508, 
+        "zipcode": 19382
+    }, 
+    "509": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 509, 
+        "zipcode": 10011
+    }, 
+    "506": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 506, 
+        "zipcode": 3869
+    }, 
+    "507": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 507, 
+        "zipcode": 28450
+    }, 
+    "504": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 40, 
+        "id": 504, 
+        "zipcode": 92115
+    }, 
+    "505": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 505, 
+        "zipcode": 20657
+    }, 
+    "502": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 502, 
+        "zipcode": 23092
+    }, 
+    "503": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 50, 
+        "id": 503, 
+        "zipcode": 27514
+    }, 
+    "500": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 500, 
+        "zipcode": 94305
+    }, 
+    "501": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 501, 
+        "zipcode": 10025
+    }, 
+    "630": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 26, 
+        "id": 630, 
+        "zipcode": 55408
+    }, 
+    "631": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 631, 
+        "zipcode": 38866
+    }, 
+    "632": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 18, 
+        "id": 632, 
+        "zipcode": 55454
+    }, 
+    "633": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 633, 
+        "zipcode": 55414
+    }, 
+    "469": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 60, 
+        "id": 469, 
+        "zipcode": 78628
+    }, 
+    "468": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 468, 
+        "zipcode": 2341
+    }, 
+    "636": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 636, 
+        "zipcode": 48043
+    }, 
+    "637": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 637, 
+        "zipcode": 74101
+    }, 
+    "465": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 465, 
+        "zipcode": 5001
+    }, 
+    "464": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 60, 
+        "id": 464, 
+        "zipcode": 94583
+    }, 
+    "467": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 467, 
+        "zipcode": 91201
+    }, 
+    "466": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 466, 
+        "zipcode": 90804
+    }, 
+    "461": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 15, 
+        "id": 461, 
+        "zipcode": 98102
+    }, 
+    "460": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 460, 
+        "zipcode": 60630
+    }, 
+    "463": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 48, 
+        "id": 463, 
+        "zipcode": 75218
+    }, 
+    "462": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 19, 
+        "id": 462, 
+        "zipcode": 2918
+    }, 
+    "901": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 901, 
+        "zipcode": "L1V3W"
+    }, 
+    "168": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 168, 
+        "zipcode": 80127
+    }, 
+    "169": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 52, 
+        "id": 169, 
+        "zipcode": 53705
+    }, 
+    "164": {
+        "job": 7, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 164, 
+        "zipcode": 80123
+    }, 
+    "165": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 165, 
+        "zipcode": 53715
+    }, 
+    "166": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 166, 
+        "zipcode": 55113
+    }, 
+    "167": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 167, 
+        "zipcode": "L9G2B"
+    }, 
+    "160": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 160, 
+        "zipcode": 66215
+    }, 
+    "161": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 161, 
+        "zipcode": 55104
+    }, 
+    "162": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 162, 
+        "zipcode": 15610
+    }, 
+    "163": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 163, 
+        "zipcode": 97212
+    }, 
+    "936": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 936, 
+        "zipcode": 32789
+    }, 
+    "935": {
+        "job": 2, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 935, 
+        "zipcode": 66221
+    }, 
+    "934": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 61, 
+        "id": 934, 
+        "zipcode": 22902
+    }, 
+    "908": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 908, 
+        "zipcode": 68504
+    }, 
+    "909": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 50, 
+        "id": 909, 
+        "zipcode": 53171
+    }, 
+    "600": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 600, 
+        "zipcode": 2320
+    }, 
+    "878": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 50, 
+        "id": 878, 
+        "zipcode": 98027
+    }, 
+    "879": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 33, 
+        "id": 879, 
+        "zipcode": 55337
+    }, 
+    "876": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 41, 
+        "id": 876, 
+        "zipcode": 20902
+    }, 
+    "877": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 877, 
+        "zipcode": 77504
+    }, 
+    "874": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 874, 
+        "zipcode": 37076
+    }, 
+    "875": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 24, 
+        "id": 875, 
+        "zipcode": 35802
+    }, 
+    "872": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 19, 
+        "id": 872, 
+        "zipcode": 74078
+    }, 
+    "873": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 48, 
+        "id": 873, 
+        "zipcode": 33763
+    }, 
+    "870": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 870, 
+        "zipcode": 65203
+    }, 
+    "871": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 871, 
+        "zipcode": 44648
+    }, 
+    "9": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 9, 
+        "zipcode": 1002
+    }, 
+    "890": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 890, 
+        "zipcode": 97301
+    }, 
+    "891": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 51, 
+        "id": 891, 
+        "zipcode": 3062
+    }, 
+    "892": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 892, 
+        "zipcode": 45243
+    }, 
+    "893": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 893, 
+        "zipcode": 95823
+    }, 
+    "894": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 894, 
+        "zipcode": 74075
+    }, 
+    "647": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 647, 
+        "zipcode": 45810
+    }, 
+    "896": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 896, 
+        "zipcode": 91505
+    }, 
+    "897": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 897, 
+        "zipcode": 33484
+    }, 
+    "898": {
+        "job": 8, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 898, 
+        "zipcode": 61755
+    }, 
+    "899": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 899, 
+        "zipcode": 55116
+    }, 
+    "646": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 17, 
+        "id": 646, 
+        "zipcode": 51250
+    }, 
+    "649": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 649, 
+        "zipcode": 39762
+    }, 
+    "648": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 43, 
+        "id": 648, 
+        "zipcode": 91351
+    }, 
+    "357": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 357, 
+        "zipcode": 98133
+    }, 
+    "356": {
+        "job": 8, 
+        "gender": 1, 
+        "age": 32, 
+        "id": 356, 
+        "zipcode": 92688
+    }, 
+    "355": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 355, 
+        "zipcode": 60135
+    }, 
+    "354": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 354, 
+        "zipcode": 48197
+    }, 
+    "353": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 353, 
+        "zipcode": 28480
+    }, 
+    "352": {
+        "job": 14, 
+        "gender": 1, 
+        "age": 37, 
+        "id": 352, 
+        "zipcode": 55105
+    }, 
+    "351": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 61, 
+        "id": 351, 
+        "zipcode": 49938
+    }, 
+    "350": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 350, 
+        "zipcode": 97301
+    }, 
+    "803": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 70, 
+        "id": 803, 
+        "zipcode": 78212
+    }, 
+    "802": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 802, 
+        "zipcode": 34105
+    }, 
+    "801": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 801, 
+        "zipcode": 92154
+    }, 
+    "800": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 800, 
+        "zipcode": 55337
+    }, 
+    "807": {
+        "job": 7, 
+        "gender": 1, 
+        "age": 41, 
+        "id": 807, 
+        "zipcode": 93555
+    }, 
+    "806": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 806, 
+        "zipcode": 11217
+    }, 
+    "359": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 359, 
+        "zipcode": 61801
+    }, 
+    "358": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 358, 
+        "zipcode": 10022
+    }, 
+    "216": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 216, 
+        "zipcode": 2215
+    }, 
+    "217": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 217, 
+        "zipcode": 11727
+    }, 
+    "214": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 26, 
+        "id": 214, 
+        "zipcode": 11231
+    }, 
+    "215": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 215, 
+        "zipcode": 63033
+    }, 
+    "212": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 49, 
+        "id": 212, 
+        "zipcode": 61401
+    }, 
+    "213": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 213, 
+        "zipcode": 55345
+    }, 
+    "210": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 210, 
+        "zipcode": 3060
+    }, 
+    "211": {
+        "job": 16, 
+        "gender": 0, 
+        "age": 66, 
+        "id": 211, 
+        "zipcode": 32605
+    }, 
+    "762": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 762, 
+        "zipcode": 95050
+    }, 
+    "763": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 763, 
+        "zipcode": 2113
+    }, 
+    "760": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 35, 
+        "id": 760, 
+        "zipcode": 14211
+    }, 
+    "761": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 17, 
+        "id": 761, 
+        "zipcode": 97302
+    }, 
+    "766": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 766, 
+        "zipcode": 10960
+    }, 
+    "767": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 70, 
+        "id": 767, 
+        "zipcode": 0
+    }, 
+    "218": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 218, 
+        "zipcode": 6513
+    }, 
+    "219": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 219, 
+        "zipcode": 43212
+    }, 
+    "289": {
+        "job": 12, 
+        "gender": 0, 
+        "age": 11, 
+        "id": 289, 
+        "zipcode": 94619
+    }, 
+    "288": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 288, 
+        "zipcode": 23226
+    }, 
+    "4": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 4, 
+        "zipcode": 43537
+    }, 
+    "281": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 15, 
+        "id": 281, 
+        "zipcode": 6059
+    }, 
+    "280": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 280, 
+        "zipcode": 22903
+    }, 
+    "283": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 283, 
+        "zipcode": 55305
+    }, 
+    "282": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 282, 
+        "zipcode": 20057
+    }, 
+    "285": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 285, 
+        "zipcode": 53713
+    }, 
+    "284": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 284, 
+        "zipcode": 92629
+    }, 
+    "287": {
+        "job": 16, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 287, 
+        "zipcode": 31211
+    }, 
+    "286": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 286, 
+        "zipcode": 15217
+    }, 
+    "678": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 678, 
+        "zipcode": 61462
+    }, 
+    "679": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 679, 
+        "zipcode": 54302
+    }, 
+    "674": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 13, 
+        "id": 674, 
+        "zipcode": 55337
+    }, 
+    "675": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 675, 
+        "zipcode": 28814
+    }, 
+    "676": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 676, 
+        "zipcode": 32712
+    }, 
+    "677": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 677, 
+        "zipcode": 99835
+    }, 
+    "670": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 670, 
+        "zipcode": 21114
+    }, 
+    "671": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 671, 
+        "zipcode": 91919
+    }, 
+    "672": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 54, 
+        "id": 672, 
+        "zipcode": 90095
+    }, 
+    "673": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 673, 
+        "zipcode": 22906
+    }, 
+    "263": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 41, 
+        "id": 263, 
+        "zipcode": 55346
+    }, 
+    "262": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 19, 
+        "id": 262, 
+        "zipcode": 78264
+    }, 
+    "261": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 261, 
+        "zipcode": 85202
+    }, 
+    "260": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 40, 
+        "id": 260, 
+        "zipcode": 89801
+    }, 
+    "267": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 267, 
+        "zipcode": 83716
+    }, 
+    "266": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 62, 
+        "id": 266, 
+        "zipcode": 78756
+    }, 
+    "265": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 265, 
+        "zipcode": 84601
+    }, 
+    "264": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 36, 
+        "id": 264, 
+        "zipcode": 90064
+    }, 
+    "269": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 31, 
+        "id": 269, 
+        "zipcode": 43201
+    }, 
+    "268": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 268, 
+        "zipcode": 19422
+    }, 
+    "701": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 51, 
+        "id": 701, 
+        "zipcode": 56321
+    }, 
+    "59": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 59, 
+        "zipcode": 8403
+    }, 
+    "58": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 58, 
+        "zipcode": 52246
+    }, 
+    "55": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 55, 
+        "zipcode": 1331
+    }, 
+    "54": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 54, 
+        "zipcode": 66315
+    }, 
+    "57": {
+        "job": 12, 
+        "gender": 0, 
+        "age": 16, 
+        "id": 57, 
+        "zipcode": 84010
+    }, 
+    "56": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 56, 
+        "zipcode": 46260
+    }, 
+    "51": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 51, 
+        "zipcode": 16509
+    }, 
+    "50": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 50, 
+        "zipcode": 52245
+    }, 
+    "53": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 53, 
+        "zipcode": 55414
+    }, 
+    "52": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 52, 
+        "zipcode": 55105
+    }, 
+    "537": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 36, 
+        "id": 537, 
+        "zipcode": 22902
+    }, 
+    "536": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 536, 
+        "zipcode": 30078
+    }, 
+    "535": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 45, 
+        "id": 535, 
+        "zipcode": 80302
+    }, 
+    "63": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 63, 
+        "zipcode": 75240
+    }, 
+    "533": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 43, 
+        "id": 533, 
+        "zipcode": 2324
+    }, 
+    "532": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 532, 
+        "zipcode": 92705
+    }, 
+    "531": {
+        "job": 16, 
+        "gender": 1, 
+        "age": 30, 
+        "id": 531, 
+        "zipcode": 97408
+    }, 
+    "530": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 530, 
+        "zipcode": 94040
+    }, 
+    "539": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 53, 
+        "id": 539, 
+        "zipcode": 80303
+    }, 
+    "538": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 538, 
+        "zipcode": 21010
+    }, 
+    "775": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 775, 
+        "zipcode": 90036
+    }, 
+    "774": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 774, 
+        "zipcode": 80027
+    }, 
+    "777": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 63, 
+        "id": 777, 
+        "zipcode": 1810
+    }, 
+    "115": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 115, 
+        "zipcode": 17110
+    }, 
+    "114": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 114, 
+        "zipcode": 75013
+    }, 
+    "117": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 117, 
+        "zipcode": 16125
+    }, 
+    "116": {
+        "job": 7, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 116, 
+        "zipcode": 97232
+    }, 
+    "111": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 57, 
+        "id": 111, 
+        "zipcode": 90630
+    }, 
+    "110": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 110, 
+        "zipcode": 77840
+    }, 
+    "113": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 47, 
+        "id": 113, 
+        "zipcode": 95032
+    }, 
+    "112": {
+        "job": 16, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 112, 
+        "zipcode": 60613
+    }, 
+    "771": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 771, 
+        "zipcode": 15232
+    }, 
+    "119": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 119, 
+        "zipcode": 67401
+    }, 
+    "118": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 21, 
+        "id": 118, 
+        "zipcode": 90210
+    }, 
+    "770": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 770, 
+        "zipcode": 14216
+    }, 
+    "773": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 773, 
+        "zipcode": 55414
+    }, 
+    "772": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 772, 
+        "zipcode": 27105
+    }, 
+    "429": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 429, 
+        "zipcode": 29205
+    }, 
+    "428": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 428, 
+        "zipcode": 55414
+    }, 
+    "534": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 534, 
+        "zipcode": 5464
+    }, 
+    "919": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 919, 
+        "zipcode": 14216
+    }, 
+    "918": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 918, 
+        "zipcode": 70116
+    }, 
+    "421": {
+        "job": 14, 
+        "gender": 1, 
+        "age": 38, 
+        "id": 421, 
+        "zipcode": 55105
+    }, 
+    "420": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 53, 
+        "id": 420, 
+        "zipcode": 2140
+    }, 
+    "423": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 64, 
+        "id": 423, 
+        "zipcode": 91606
+    }, 
+    "422": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 422, 
+        "zipcode": 94533
+    }, 
+    "425": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 425, 
+        "zipcode": 58644
+    }, 
+    "424": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 36, 
+        "id": 424, 
+        "zipcode": 55422
+    }, 
+    "427": {
+        "job": 2, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 427, 
+        "zipcode": 85258
+    }, 
+    "426": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 55, 
+        "id": 426, 
+        "zipcode": 1602
+    }, 
+    "308": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 60, 
+        "id": 308, 
+        "zipcode": 95076
+    }, 
+    "309": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 309, 
+        "zipcode": 70802
+    }, 
+    "855": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 53, 
+        "id": 855, 
+        "zipcode": 4988
+    }, 
+    "300": {
+        "job": 14, 
+        "gender": 1, 
+        "age": 26, 
+        "id": 300, 
+        "zipcode": 55106
+    }, 
+    "301": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 301, 
+        "zipcode": 55439
+    }, 
+    "302": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 42, 
+        "id": 302, 
+        "zipcode": 77904
+    }, 
+    "303": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 303, 
+        "zipcode": 14853
+    }, 
+    "304": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 22, 
+        "id": 304, 
+        "zipcode": 71701
+    }, 
+    "305": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 305, 
+        "zipcode": 94086
+    }, 
+    "306": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 306, 
+        "zipcode": 73132
+    }, 
+    "307": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 307, 
+        "zipcode": 55454
+    }, 
+    "895": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 31, 
+        "id": 895, 
+        "zipcode": 32301
+    }, 
+    "825": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 44, 
+        "id": 825, 
+        "zipcode": 5452
+    }, 
+    "824": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 824, 
+        "zipcode": 15017
+    }, 
+    "827": {
+        "job": 4, 
+        "gender": 1, 
+        "age": 23, 
+        "id": 827, 
+        "zipcode": 80228
+    }, 
+    "847": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 847, 
+        "zipcode": 55417
+    }, 
+    "846": {
+        "job": 9, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 846, 
+        "zipcode": 47130
+    }, 
+    "845": {
+        "job": 2, 
+        "gender": 0, 
+        "age": 64, 
+        "id": 845, 
+        "zipcode": 97405
+    }, 
+    "826": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 826, 
+        "zipcode": 77048
+    }, 
+    "843": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 843, 
+        "zipcode": 44212
+    }, 
+    "842": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 842, 
+        "zipcode": 93055
+    }, 
+    "841": {
+        "job": 2, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 841, 
+        "zipcode": 47401
+    }, 
+    "840": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 840, 
+        "zipcode": 55406
+    }, 
+    "821": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 37, 
+        "id": 821, 
+        "zipcode": 77845
+    }, 
+    "853": {
+        "job": 20, 
+        "gender": 0, 
+        "age": 49, 
+        "id": 853, 
+        "zipcode": 40515
+    }, 
+    "849": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 15, 
+        "id": 849, 
+        "zipcode": 25652
+    }, 
+    "820": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 820, 
+        "zipcode": 37725
+    }, 
+    "823": {
+        "job": 1, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 823, 
+        "zipcode": 50322
+    }, 
+    "822": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 822, 
+        "zipcode": 53144
+    }, 
+    "568": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 568, 
+        "zipcode": 1915
+    }, 
+    "569": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 34, 
+        "id": 569, 
+        "zipcode": 91903
+    }, 
+    "751": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 24, 
+        "id": 751, 
+        "zipcode": 90034
+    }, 
+    "750": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 750, 
+        "zipcode": 32303
+    }, 
+    "757": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 757, 
+        "zipcode": 55104
+    }, 
+    "737": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 737, 
+        "zipcode": 98072
+    }, 
+    "755": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 755, 
+        "zipcode": 97007
+    }, 
+    "754": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 59, 
+        "id": 754, 
+        "zipcode": 62901
+    }, 
+    "560": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 32, 
+        "id": 560, 
+        "zipcode": 10003
+    }, 
+    "561": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 561, 
+        "zipcode": 60005
+    }, 
+    "562": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 54, 
+        "id": 562, 
+        "zipcode": 20879
+    }, 
+    "563": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 39, 
+        "id": 563, 
+        "zipcode": 32707
+    }, 
+    "564": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 65, 
+        "id": 564, 
+        "zipcode": 94591
+    }, 
+    "565": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 565, 
+        "zipcode": 55422
+    }, 
+    "566": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 20, 
+        "id": 566, 
+        "zipcode": 14627
+    }, 
+    "567": {
+        "job": 5, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 567, 
+        "zipcode": 10003
+    }, 
+    "739": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 35, 
+        "id": 739, 
+        "zipcode": 73162
+    }, 
+    "229": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 229, 
+        "zipcode": 22903
+    }, 
+    "228": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 21, 
+        "id": 228, 
+        "zipcode": 22003
+    }, 
+    "227": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 46, 
+        "id": 227, 
+        "zipcode": 60659
+    }, 
+    "226": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 226, 
+        "zipcode": 92103
+    }, 
+    "225": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 51, 
+        "id": 225, 
+        "zipcode": 58202
+    }, 
+    "224": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 31, 
+        "id": 224, 
+        "zipcode": 43512
+    }, 
+    "223": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 19, 
+        "id": 223, 
+        "zipcode": 47906
+    }, 
+    "222": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 222, 
+        "zipcode": 27502
+    }, 
+    "221": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 221, 
+        "zipcode": 20685
+    }, 
+    "220": {
+        "job": 10, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 220, 
+        "zipcode": 78205
+    }, 
+    "391": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 23, 
+        "id": 391, 
+        "zipcode": 84604
+    }, 
+    "726": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 25, 
+        "id": 726, 
+        "zipcode": 80538
+    }, 
+    "727": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 727, 
+        "zipcode": 78741
+    }, 
+    "724": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 31, 
+        "id": 724, 
+        "zipcode": 40243
+    }, 
+    "390": {
+        "job": 20, 
+        "gender": 1, 
+        "age": 42, 
+        "id": 390, 
+        "zipcode": 85016
+    }, 
+    "722": {
+        "job": 8, 
+        "gender": 1, 
+        "age": 50, 
+        "id": 722, 
+        "zipcode": 17331
+    }, 
+    "723": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 723, 
+        "zipcode": 94403
+    }, 
+    "720": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 49, 
+        "id": 720, 
+        "zipcode": 16506
+    }, 
+    "721": {
+        "job": 5, 
+        "gender": 1, 
+        "age": 24, 
+        "id": 721, 
+        "zipcode": 11238
+    }, 
+    "728": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 58, 
+        "id": 728, 
+        "zipcode": 94306
+    }, 
+    "729": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 19, 
+        "id": 729, 
+        "zipcode": 56567
+    }, 
+    "151": {
+        "job": 0, 
+        "gender": 1, 
+        "age": 38, 
+        "id": 151, 
+        "zipcode": 48103
+    }, 
+    "150": {
+        "job": 1, 
+        "gender": 1, 
+        "age": 20, 
+        "id": 150, 
+        "zipcode": 2139
+    }, 
+    "153": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 153, 
+        "zipcode": 60641
+    }, 
+    "152": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 33, 
+        "id": 152, 
+        "zipcode": 68767
+    }, 
+    "155": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 32, 
+        "id": 155, 
+        "zipcode": 11217
+    }, 
+    "154": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 154, 
+        "zipcode": 53703
+    }, 
+    "157": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 57, 
+        "id": 157, 
+        "zipcode": 70808
+    }, 
+    "156": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 156, 
+        "zipcode": 8360
+    }, 
+    "159": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 23, 
+        "id": 159, 
+        "zipcode": 55346
+    }, 
+    "158": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 50, 
+        "id": 158, 
+        "zipcode": 27606
+    }, 
+    "609": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 13, 
+        "id": 609, 
+        "zipcode": 55106
+    }, 
+    "608": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 608, 
+        "zipcode": 10003
+    }, 
+    "634": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 634, 
+        "zipcode": "T8H1N"
+    }, 
+    "399": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 25, 
+        "id": 399, 
+        "zipcode": 92374
+    }, 
+    "635": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 635, 
+        "zipcode": 23237
+    }, 
+    "749": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 749, 
+        "zipcode": 80919
+    }, 
+    "398": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 40, 
+        "id": 398, 
+        "zipcode": 60008
+    }, 
+    "48": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 48, 
+        "zipcode": 12550
+    }, 
+    "49": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 23, 
+        "id": 49, 
+        "zipcode": 76111
+    }, 
+    "46": {
+        "job": 11, 
+        "gender": 1, 
+        "age": 27, 
+        "id": 46, 
+        "zipcode": 46538
+    }, 
+    "47": {
+        "job": 11, 
+        "gender": 0, 
+        "age": 53, 
+        "id": 47, 
+        "zipcode": 7102
+    }, 
+    "44": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 26, 
+        "id": 44, 
+        "zipcode": 46260
+    }, 
+    "45": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 45, 
+        "zipcode": 50233
+    }, 
+    "42": {
+        "job": 0, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 42, 
+        "zipcode": 17870
+    }, 
+    "43": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 29, 
+        "id": 43, 
+        "zipcode": 20854
+    }, 
+    "40": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 38, 
+        "id": 40, 
+        "zipcode": 27514
+    }, 
+    "41": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 33, 
+        "id": 41, 
+        "zipcode": 80525
+    }, 
+    "638": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 45, 
+        "id": 638, 
+        "zipcode": 1940
+    }, 
+    "5": {
+        "job": 13, 
+        "gender": 1, 
+        "age": 33, 
+        "id": 5, 
+        "zipcode": 15213
+    }, 
+    "639": {
+        "job": 10, 
+        "gender": 1, 
+        "age": 42, 
+        "id": 639, 
+        "zipcode": 12065
+    }, 
+    "489": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 55, 
+        "id": 489, 
+        "zipcode": 45218
+    }, 
+    "488": {
+        "job": 19, 
+        "gender": 0, 
+        "age": 48, 
+        "id": 488, 
+        "zipcode": 21012
+    }, 
+    "487": {
+        "job": 4, 
+        "gender": 0, 
+        "age": 22, 
+        "id": 487, 
+        "zipcode": 92121
+    }, 
+    "486": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 39, 
+        "id": 486, 
+        "zipcode": 93101
+    }, 
+    "485": {
+        "job": 3, 
+        "gender": 1, 
+        "age": 44, 
+        "id": 485, 
+        "zipcode": 95821
+    }, 
+    "484": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 27, 
+        "id": 484, 
+        "zipcode": 21208
+    }, 
+    "483": {
+        "job": 17, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 483, 
+        "zipcode": 43212
+    }, 
+    "482": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 18, 
+        "id": 482, 
+        "zipcode": 40256
+    }, 
+    "481": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 73, 
+        "id": 481, 
+        "zipcode": 37771
+    }, 
+    "480": {
+        "job": 15, 
+        "gender": 0, 
+        "age": 57, 
+        "id": 480, 
+        "zipcode": 98257
+    }, 
+    "472": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 472, 
+        "zipcode": 87544
+    }, 
+    "473": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 473, 
+        "zipcode": 94708
+    }, 
+    "470": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 24, 
+        "id": 470, 
+        "zipcode": 10021
+    }, 
+    "471": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 10, 
+        "id": 471, 
+        "zipcode": 77459
+    }, 
+    "476": {
+        "job": 18, 
+        "gender": 0, 
+        "age": 28, 
+        "id": 476, 
+        "zipcode": 60440
+    }, 
+    "477": {
+        "job": 18, 
+        "gender": 1, 
+        "age": 23, 
+        "id": 477, 
+        "zipcode": 2125
+    }, 
+    "474": {
+        "job": 6, 
+        "gender": 0, 
+        "age": 51, 
+        "id": 474, 
+        "zipcode": 93711
+    }, 
+    "475": {
+        "job": 14, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 475, 
+        "zipcode": 75230
+    }, 
+    "478": {
+        "job": 13, 
+        "gender": 0, 
+        "age": 29, 
+        "id": 478, 
+        "zipcode": 10019
+    }, 
+    "479": {
+        "job": 3, 
+        "gender": 0, 
+        "age": 30, 
+        "id": 479, 
+        "zipcode": 55409
+    }
+}

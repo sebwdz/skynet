@@ -1,0 +1,55 @@
+{
+	"request" : {
+		"from" : ["preferences", "users", "movies"],
+		"select" : [
+			"preferences.views \"preferences.views\"",
+			"users.age \"users.age\"",
+			"users.gender \"users.gender\"",
+			"users.id \"users.id\"",
+			"movies.id \"opinions.id\""],
+		"where" : {
+			"right" : ":fk_id",
+			"left" : "movies.id",
+			"type" : "equal"
+		}
+	},
+	"settings" : {
+		"inputs" : [{
+			"type" : "json",
+			"from" : [{
+				"column" : "preferences.views",
+				"fields" : [
+					"Mystery", "Drama", "Sci-Fi", "Fantasy", "Unknown", 
+        			"Horror", "Film-Noir", "Crime", "Romance", "Childrens", 
+        			"Musical", "Animation", "Western", "Action", "Comedy", 
+        			"Documentary", "War", "Thriller", "Adventure"
+				]
+			}]
+		}, {
+			"type" : "bool",
+			"from" : [{"column" : "users.gender"}]
+		}, {
+			"type" : "double",
+			"from" : [{"column" : "users.age"}]
+		}],
+		"outputs" : [{
+			"type_use" : "accu",
+			"type" : "double",
+			"from" : [{"column" : "users.id"}]
+		}]
+	},
+	"export" : [{
+		"database" : "networks",
+		"fields" : {
+			"fk_id" : ":fk_id",
+			"map" : {
+					"outputs" : ":outputs",
+					"network" : ":network"
+			},
+			"settings" : { 
+				"request_id" : ":req.id"
+			},
+			"type" : "movies"
+		}
+	}]
+}

@@ -1,0 +1,10 @@
+{
+"settings" : {
+		"type" : "SelfOrganizingMap",
+		"inputs" : 19, 
+		"outputs" : [4, 4]
+	},
+	"sessions" : {
+		"iteration" : 1000
+	}
+}
