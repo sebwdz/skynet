@@ -11,7 +11,7 @@
 
 namespace Skynet {
     namespace Manager {
-        class       RequestManager : AManager {
+        class       RequestManager : public AManager {
         public:
             RequestManager(json11::Json const&, Data::DbObject*);
 
@@ -19,6 +19,7 @@ namespace Skynet {
 
         private:
             Data::DbReader  m_reader;
+            Data::DbObject  *m_db;
         };
     }
 }

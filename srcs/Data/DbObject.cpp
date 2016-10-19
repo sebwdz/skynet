@@ -2,6 +2,7 @@
 // Created by sebastien on 10/12/16.
 //
 
+#include <iostream>
 #include        <pqxx/pqxx>
 #include        "Data/DbObject.hpp"
 

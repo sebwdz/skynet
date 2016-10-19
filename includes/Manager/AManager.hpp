@@ -12,8 +12,10 @@ namespace   Skynet {
         class       AManager {
         public:
             AManager(json11::Json const&);
-            void                execute(json11::Json const&);
+
             json11::Json const  &getResults() const;
+
+            virtual void                execute(json11::Json const&) = 0;
 
         protected:
             json11::Json        m_results;

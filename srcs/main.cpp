@@ -10,6 +10,26 @@
 #include            "Data/DbObject.hpp"
 #include            "Data/DbReader.hpp"
 #include            "Data/Exporter.hpp"
+#include            "Manager/MainManager.hpp"
+
+void                managertest() {
+    Skynet::Manager::MainManager        *mainManager;
+    std::ifstream                                   file("exp/manmovies");
+    std::string                                     content;
+    std::string                                     err;
+    json11::Json                                    data;
+    Skynet::Data::DbObject                          dbObject;
+
+    content = std::string((std::istreambuf_iterator<char>(file)),
+                          std::istreambuf_iterator<char>());
+
+    data = json11::Json::parse(content, err);
+
+    dbObject.connect("user=sebastien " "host=127.0.0.1 " "password=passpass " "port=5432 " "dbname=pocdata ");
+    mainManager = new Skynet::Manager::MainManager(data, &dbObject);
+    mainManager->execute(json11::Json());
+    exit(0);
+}
 
 json11::Json        makeOutMap(std::vector<Skynet::Data::Extract::Values*> const& inputs,
                                std::vector<Skynet::Data::Extract::Values*> const& outputs,
@@ -121,6 +141,7 @@ void                test(char *filename, char *req) {
 }
 
 int                 main(int, char** av) {
+    managertest();
     if (std::string(av[1]) == "generate") {
         test(av[2], av[3]);
     } else if (std::string(av[1]) == "exploit") {

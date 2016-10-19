@@ -3,14 +3,13 @@
 		"mainRequest" : {
 			"type" : "request",
 			"request" : {
-				"select" : ["movies.id \"fk_id\""],
+				"select" : ["movies.id \"movies.id\""],
 				"from" : ["movies"]
 			}
 		},
 		"dataRequest" : {
 				"type" : "request",
 				"request" : {
-				"needs" : ["movies.id"],
 				"from" : ["preferences"],
 				"select" : [
 					"preferences.likes \"preferences.likes\"",

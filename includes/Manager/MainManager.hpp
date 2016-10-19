@@ -6,6 +6,7 @@
 #define SKYNET_MAINMANAGER_HPP
 
 #include    "json11/json11.hpp"
+#include    "Data/DbObject.hpp"
 #include    "AManager.hpp"
 
 namespace   Skynet {
@@ -13,9 +14,9 @@ namespace   Skynet {
         class       MainManager : public AManager {
         public:
             MainManager(json11::Json const&, Data::DbObject*);
-            void                                    execute();
+            void                                    execute(json11::Json const&);
+            void                                    process(json11::Json const&, json11::Json const&);
         private:
-            Data::DbObject                          *m_db;
             std::map<std::string, AManager*>        m_managers;
         };
     }
