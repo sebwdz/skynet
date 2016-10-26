@@ -7,20 +7,21 @@
 
 #include    "Data/Extract.hpp"
 #include    "Neuronal/LearningSession.hpp"
+#include    "Neuronal/Experiences/UnsupervisedExperience.hpp"
 
 namespace Skynet {
     namespace Neuronal {
-        class UnsupervisedSession : public LearningSession {
+        class       UnsupervisedSession : public LearningSession {
         public:
             void                load(json11::Json const&);
-            void                setInputs(std::vector<Data::Extract::Values*> const&);
+            void                loadExperiences(json11::Json const&);
 
             void                exec();
             double              evaluate();
 
         private:
-            unsigned int                        m_iterations;
-            std::vector<Data::Extract::Values*> m_inputs;
+            std::vector<UnsupervisedExperience*>    m_experiences;
+            unsigned int                            m_iterations;
         };
     }
 }

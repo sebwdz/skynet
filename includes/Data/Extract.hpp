@@ -12,15 +12,12 @@ namespace Skynet {
 
         class       Extract {
         public:
-            struct      Values {
-                std::vector<double>     _values;
-            };
 
             void    extract(json11::Json const&, json11::Json const&);
-            std::vector<Values*> const  &getValues() const;
+            json11::Json const          &getResult() const;
 
         private:
-            std::vector<Values*>     m_values;
+            json11::Json                m_result;
 
         };
     }

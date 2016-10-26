@@ -32,7 +32,8 @@
 		"settings" : {
 			"type" : "SelfOrganizingMap",
 			"inputs" : 21, 
-			"outputs" : [4, 4]
+			"outputs" : [4, 4],
+			"outputs_type" : "average"
 		},
 		"session" : {
 			"iterations" : 2000

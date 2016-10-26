@@ -5,7 +5,7 @@
 #ifndef SKYNET_LOADER_HPP
 #define SKYNET_LOADER_HPP
 
-#include <json11/json11.hpp>
+#include    <json11/json11.hpp>
 #include    "Neuronal/Network.hpp"
 
 namespace       Skynet {
@@ -14,13 +14,14 @@ namespace       Skynet {
         public:
             ~Loader() {}
 
-            Network     *load(json11::Json const &);
-            Network     *loadPerceptron(json11::Json const &, std::string const&);
-            static Loader      &getInstance();
+            Network             *getNetwork(std::string const &);
+            Network             *getPerceptron(std::string const&);
+            Network             *getSelfOrganizingMap(std::string const&);
+            static Loader       &getInstance();
 
         private:
             Loader();
-            std::map<std::string, Network *(Loader::*)(json11::Json const &, std::string const&)>  m_map;
+            std::map<std::string, Network *(Loader::*)(std::string const&)>  m_map;
         };
     }
 }

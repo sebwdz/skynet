@@ -15,7 +15,7 @@ namespace   Skynet {
 
             json11::Json const  &getResults() const;
 
-            virtual void                execute(json11::Json const&) = 0;
+            virtual void                execute(json11::Json const&, json11::Json const&) = 0;
 
         protected:
             json11::Json        m_results;

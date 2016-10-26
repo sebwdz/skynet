@@ -7,23 +7,19 @@
 
 #include <vector>
 #include "Network.hpp"
-#include "Experience.hpp"
 
 namespace       Skynet {
     namespace       Neuronal {
         class           LearningSession {
         public:
             void        setNetwork(Network*);
-            void        setExperiences(std::vector<Experience*> const&);
-            void        setTests(std::vector<Experience*> const&);
 
             virtual void        exec() = 0;
             virtual double      evaluate() = 0;
-
+            virtual void        load(json11::Json const&) = 0;
+            virtual void        loadExperiences(json11::Json const&) = 0;
         protected:
             Network                         *m_network;
-            std::vector<Experience*>        m_experiences;
-            std::vector<Experience*>        m_tests;
         };
     }
 }

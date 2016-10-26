@@ -24,11 +24,6 @@ namespace       Skynet {
 
         void        SelfOrganizingMap::exec() {
             m_winner = getWinner();
-            m_outputs.clear();
-            if (m_winner) {
-                m_outputs.push_back(m_winner->getPos().first);
-                m_outputs.push_back(m_winner->getPos().second);
-            }
         }
 
         void SelfOrganizingMap::update(double) {
@@ -62,7 +57,7 @@ namespace       Skynet {
         }
 
         std::vector<double> const& SelfOrganizingMap::getOutputs() const {
-            return (m_outputs);
+            return (m_outputs[m_winner->getPos().second * m_size.first + m_winner->getPos().first]);
         }
 
         void SelfOrganizingMap::generate(json11::Json const &json) {
@@ -83,6 +78,8 @@ namespace       Skynet {
                     m_map.push_back(neuron);
                 }
             }
+            m_outputs.resize(m_size.first * m_size.second, std::vector<double>());
+            m_outtype = json["outputs_type"].string_value();
         }
 
         void SelfOrganizingMap::save(json11::Json &out) {
@@ -98,7 +95,9 @@ namespace       Skynet {
             }
             out = json11::Json::object {{"inputs", (int)m_inputs.size()},
                                         {"map", arr},
-                                        {"outputs", json11::Json::array {(int)m_size.first, (int)m_size.second}}};
+                                        {"outputs", json11::Json::array {(int)m_size.first, (int)m_size.second}},
+                                        {"outputs_map", m_outputs},
+                                        {"network", json11::Json::object {{"settings", json11::Json::object {{"type", "SelfOrganizingMap"}}}}}};
         }
 
         void SelfOrganizingMap::load(json11::Json const &json) {
@@ -117,5 +116,28 @@ namespace       Skynet {
             }
         }
 
+        void SelfOrganizingMap::apply(UnsupervisedExperience *exp) {
+            unsigned int        it = (unsigned int)(m_winner->getPos().second * m_size.first + m_winner->getPos().first);
+
+            exp->apply(*this, false);
+            if (m_outtype != "sum" || !m_outputs[it].size())
+                m_outputs[it].push_back(exp->getExpected()[0]);
+            else
+                m_outputs[it][0] += exp->getExpected()[0];
+        }
+
+        void SelfOrganizingMap::makeOutputs() {
+            double sum;
+
+            if (m_outtype != "average")
+                return ;
+            for (unsigned int it = 0; it < m_outputs.size(); it++) {
+                sum = 0;
+                for (unsigned int x = 0; x < m_outputs[it].size(); x++)
+                    sum += m_outputs[it][x];
+                if (m_outputs[it].size())
+                    m_outputs[it] = std::vector<double>(1, (sum / (double)m_outputs[it].size()));
+            }
+        }
     }
 }

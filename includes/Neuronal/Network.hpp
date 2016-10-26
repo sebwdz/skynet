@@ -12,12 +12,12 @@ namespace       Skynet {
     namespace       Neuronal {
         class           Network {
         public:
-            virtual void                        reset(unsigned int) {}
+            virtual void                        reset(unsigned int) = 0;
             virtual void                        exec() = 0;
             virtual void                        learn() = 0;
             virtual void                        update(double = 0) = 0;
             virtual void                        generate(json11::Json const&) = 0;
-            virtual void                        save(json11::Json &) {}
+            virtual void                        save(json11::Json &) = 0;
 
             virtual void                        setInputs(std::vector<double> const&) = 0;
             virtual std::vector<double> const   &getOutputs() const = 0;

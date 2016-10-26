@@ -30,10 +30,11 @@
 		"settings" : {
 			"type" : "SelfOrganizingMap",
 			"inputs" : 19, 
-			"outputs" : [5, 5]
+			"outputs" : [10, 10],
+			"outputs_type" : "average"
 		},
 		"session" : {
-			"iterations" : 2000
+			"iterations" : 20
 		}
 	},
 	"settings" : {
@@ -59,10 +60,7 @@
 		"database" : "networks",
 		"fields" : {
 			"fk_id" : ":fk_id",
-			"map" : {
-					"outputs" : ":outputs",
-					"network" : ":network"
-			},
+			"map" : ":network",
 			"settings" : { 
 				"request_id" : ":req.id"
 			},

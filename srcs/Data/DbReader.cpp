@@ -23,6 +23,11 @@ namespace Skynet {
 
         void DbReader::condition(std::string &request, json11::Json const& json) {
             if (json["type"] == "and" || json["type"] == "or") {
+                for (unsigned int it = 0; it < json["conditions"].array_items().size(); it++) {
+                    if (it && it + 1 != json["conditions"].array_items().size())
+                        request += " AND ";
+                    condition(request, json["conditions"][it]);
+                }
 
             } else {
                 request += json["left"].string_value();
@@ -45,7 +50,7 @@ namespace Skynet {
             list(request, json["from"]);
             if (json.object_items().find("joins") != json.object_items().end() && json["joins"].array_items().size()) {
                 for (json11::Json::array::const_iterator it = json["joins"].array_items().begin(); it != json["joins"].array_items().end(); it++) {
-                    request += "INNER JOIN " + (*it)["database"].string_value() + " ON ";
+                    request += "INNER JOIN " + (*it)["table"].string_value() + " ON ";
                     condition(request, (*it)["on"]);
                 }
             }

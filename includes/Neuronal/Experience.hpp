@@ -17,17 +17,12 @@ namespace   Skynet {
             void        setInputs(std::vector<double> const &);
             void        setExpected(std::vector<double> const &);
 
-            virtual void    apply(Network &, bool = false);
-            void            calEqm();
+            std::vector<double> const   &getExpected() const;
 
-            std::vector<double> const       &getErrors() const;
-            double                          getEqm() const;
-
+            virtual void    apply(Network &, bool = false) = 0;
         protected:
             std::vector<double>     m_inputs;
             std::vector<double>     m_expected;
-            std::vector<double>     m_errors;
-            double m_eqm;
         };
     }
 }

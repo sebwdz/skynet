@@ -2,6 +2,7 @@
 // Created by sebastien on 10/17/16.
 //
 
+#include <Manager/MainManager.hpp>
 #include    "Manager/AManager.hpp"
 
 namespace   Skynet {

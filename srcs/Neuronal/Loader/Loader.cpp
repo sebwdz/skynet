@@ -3,6 +3,7 @@
 //
 
 #include <chanel.hpp>
+#include <Neuronal/Network/SelfOrganizingMap.hpp>
 #include "Neuronal/Network/MLPerceptron.hpp"
 #include "Neuronal/Network/SimplePerceptron.hpp"
 #include "Neuronal/Loader/Loader.hpp"
@@ -10,30 +11,36 @@
 namespace   Skynet {
     namespace       Neuronal {
         Loader::Loader() {
-            m_map["mlp"] = &Loader::loadPerceptron;
-            m_map["sp"] = &Loader::loadPerceptron;
+            m_map["mlp"] = &Loader::getPerceptron;
+            m_map["sp"] = &Loader::getPerceptron;
+            m_map["SelfOrganizingMap"] = &Loader::getSelfOrganizingMap;
         }
 
-        Network* Loader::load(json11::Json const &json) {
+        Network* Loader::getNetwork(std::string const &type) {
             Network*    network;
-            std::map<std::string, Network *(Loader::*)(json11::Json const &, std::string const &)>::iterator it;
-            std::string type = json["settings"]["type"].string_value();
+            std::map<std::string, Network *(Loader::*)(std::string const &)>::iterator it;
 
             if ((it = m_map.find(type)) == m_map.end())
                 return (NULL);
-            network = (this->*(it->second))(json["settings"], type);
+            network = (this->*(it->second))(type);
             return (network);
         }
 
-        Network*   Loader::loadPerceptron(json11::Json const &json, std::string const& type) {
+        Network*   Loader::getPerceptron(std::string const& type) {
             Perceptron          *perceptron;
 
             if (type == "mlp")
                 perceptron = new MLPerceptron();
             else
                 perceptron = new SimplePerceptron();
-            perceptron->generate(json);
             return (perceptron);
+        }
+
+        Network* Loader::getSelfOrganizingMap(std::string const &type) {
+            SelfOrganizingMap       *map;
+
+            map = new SelfOrganizingMap();
+            return (map);
         }
 
         Loader& Loader::getInstance() {

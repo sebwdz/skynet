@@ -14,10 +14,12 @@ namespace   Skynet {
         class       MainManager : public AManager {
         public:
             MainManager(json11::Json const&, Data::DbObject*);
-            void                                    execute(json11::Json const&);
+            void                                    execute(json11::Json const&, json11::Json const&);
             void                                    process(json11::Json const&, json11::Json const&);
+            json11::Json::object const              &getSave();
         private:
             std::map<std::string, AManager*>        m_managers;
+            json11::Json::object                    m_save;
         };
     }
 }

@@ -15,10 +15,8 @@ namespace   Skynet {
 
         void        SelfOrganizingMapNeuron::exec() {
             m_output = 0;
-            for (unsigned int it = 0; it < m_inputs.size(); it++) {
+            for (unsigned int it = 0; it < m_inputs.size(); it++)
                 m_output += std::pow(m_inputs[it].first->getOutput() - m_inputs[it].second, 2);
-            }
-            m_output = std::sqrt(m_output);
         }
 
         void        SelfOrganizingMapNeuron::learn(double factor) {

@@ -2,8 +2,8 @@
 // Created by sebastien on 10/13/16.
 //
 
-#ifndef SKYNET_EXPORTER_HPP
-#define SKYNET_EXPORTER_HPP
+#ifndef SKYNET_EXPORTER_DATA_HPP
+#define SKYNET_EXPORTER_DATA_HPP
 
 #include    "json11/json11.hpp"
 #include    "Data/DbObject.hpp"
@@ -13,11 +13,11 @@ namespace Skynet {
         class           Exporter {
         public:
             void                setDb(DbObject*);
-            json11::Json const  &getValue(json11::Json const&, json11::Json const&);
-            void                export_data(json11::Json const&, json11::Json const&);
+            json11::Json        getValue(json11::Json const&, json11::Json const&, json11::Json const&);
+            //void                remove(json11::Json const &vars, json11::Json const& save, json11::Json const &pattern);
+            void                export_data(json11::Json const&, json11::Json const&, json11::Json const&);
 
         private:
-            json11::Json        m_tmp;
             DbObject            *m_db;
         };
     }

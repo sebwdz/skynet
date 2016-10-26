@@ -17,14 +17,14 @@
 					"users.gender \"users.gender\"",
 					"opinions.rate \"opinions.rate\""],
 				"joins" : [{
-					"database" : "opinions as opinions",
+					"table" : "opinions as opinions",
 					"on" : {
 						"type" : "equal",
 						"right" : ":movies.id",
 						"left" : "opinions.fk_movie_id"
 					}
 				}, {
-					"database" : "users",
+					"table" : "users",
 					"on" : {
 						"type" : "equal",
 						"right" : "users.id",
@@ -38,32 +38,21 @@
 				}
 			}
 		},
-		"networkManager" : {
-			"type" : "network",
-			"network_type" : "learn",
-			"network" : {
-				"settings" : {
-					"type" : "SelfOrganizingMap",
-					"inputs" : 21, 
-					"outputs" : [4, 4]
-				},
-				"session" : {
-					"iterations" : 2000
-				}
-			},
-			"import" : {
+		"importManager" : {
+			"type" : "interpreter",
+			"fields" : {
 				"inputs" : [{
 					"type" : "json",
 					"from" : [{
 						"column" : "preferences.likes",
 						"fields" : [
 							"Mystery", "Drama", "Sci-Fi", "Fantasy", "Unknown", 
-		        			"Horror", "Film-Noir", "Crime", "Romance", "Childrens", 
-		        			"Musical", "Animation", "Western", "Action", "Comedy", 
-		        			"Documentary", "War", "Thriller", "Adventure"
+			       			"Horror", "Film-Noir", "Crime", "Romance", "Childrens", 
+			       			"Musical", "Animation", "Western", "Action", "Comedy", 
+			       			"Documentary", "War", "Thriller", "Adventure"
 						]
 					}]
-					}, {
+				}, {
 						"type" : "bool",
 						"from" : [{"column" : "users.gender"}]
 					}, {
@@ -71,35 +60,57 @@
 						"from" : [{"column" : "users.age"}]
 				}],
 				"outputs" : [{
-					"type_use" : "average",
 					"type" : "double",
 					"from" : [{"column" : "opinions.rate"}]
 				}]
-			},
-			"export" : [{
-				"database" : "networks",
-				"fields" : {
-					"fk_id" : ":fk_id",
-					"map" : {
-							"outputs" : ":outputs",
-							"network" : ":network"
-					},
-					"settings" : { 
-						"request_id" : ":req.id"
-					},
-					"type" : "movieslike"
+			}
+		},
+		"networkManager" : {
+			"type" : "network",
+			"session_type" : "learn",
+			"network" : {
+				"settings" : {
+					"type" : "SelfOrganizingMap",
+					"inputs" : 21, 
+					"outputs" : [4, 4],
+					"outputs_type" : "average"
+				},
+				"session" : {
+					"iterations" : 2000
 				}
-			}]
+			}
+		},
+		"exportManager" : {
+			"type" : "exporter",
+			"table" : "networks",
+			"main_keys" : ["type", "fk_id"],
+			"fields" : {
+				"fk_id" : ":movies.id",
+				"map" : ":network",
+				"settings" : { 
+					"request_id" : 1
+				},
+				"type" : "movieslike"
+			}
 		}
 	},
 	"process" : [{
 			"call" : "mainRequest",
 			"type" : "forone",
+			"save" : ["movies.id"],
 			"to" : [{
 				"call" : "dataRequest",
 				"type" : "forall",
 				"to" : [{
-					"call" : "networkManager"
+					"call" : "importManager",
+					"type" : "forall",
+					"to" : [{
+						"call" : "networkManager",
+						"type" : "forall",
+						"to" : [{
+							"call" : "exportManager"
+						}]
+					}]
 				}]
 			}]
 		}

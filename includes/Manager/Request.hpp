@@ -15,7 +15,7 @@ namespace Skynet {
         public:
             RequestManager(json11::Json const&, Data::DbObject*);
 
-            void                execute(json11::Json const&);
+            void                execute(json11::Json const&, json11::Json const&);
 
         private:
             Data::DbReader  m_reader;
