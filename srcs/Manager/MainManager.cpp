@@ -34,26 +34,22 @@ namespace   Skynet {
         void    MainManager::process(json11::Json const &proc, json11::Json const &vars) {
             json11::Json tmp;
 
-            if (proc.object_items().find("from") != proc.object_items().end()) {
-
-            }
             m_managers[proc["call"].string_value()]->execute(vars, m_save);
             tmp = m_managers[proc["call"].string_value()]->getResults();
             if (proc.object_items().find("to") != proc.object_items().end()) {
                 for (unsigned int x = 0; x < proc["to"].array_items().size(); x++) {
                     if (proc["type"].string_value() == "forone") {
-                        for (unsigned int it = 0; it < tmp.array_items().size(); it++) {
-                            if (proc.object_items().find("save") != proc.object_items().end()) {
-                                for (unsigned int xxx = 0; xxx < proc["save"].array_items().size(); xxx++)
-                                    m_save[proc["save"][xxx].string_value()] = tmp[it][proc["save"][xxx].string_value()];
-                            }
+                        for (unsigned int it = 0; it < tmp.array_items().size(); it++)
                             process(proc["to"][x], tmp[it]);
-                        }
                     } else
                         process(proc["to"][x], tmp);
                 }
-            } else if (proc["type"].string_value() == "return")
-                m_results = tmp;
+            } else if (proc["type"].string_value() == "return") {
+                json11::Json::array         arr;
+                arr.insert(arr.begin(), tmp.array_items().begin(), tmp.array_items().end());
+                arr.insert(arr.begin(), m_results.array_items().begin(), m_results.array_items().end());
+                m_results = arr;
+            }
         }
 
         json11::Json::object const& MainManager::getSave() {

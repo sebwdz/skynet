@@ -17,6 +17,7 @@ namespace       Skynet {
             virtual void                        learn() = 0;
             virtual void                        update(double = 0) = 0;
             virtual void                        generate(json11::Json const&) = 0;
+            virtual void                        load(json11::Json const&) {}
             virtual void                        save(json11::Json &) = 0;
 
             virtual void                        setInputs(std::vector<double> const&) = 0;

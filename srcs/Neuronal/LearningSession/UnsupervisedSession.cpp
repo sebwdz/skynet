@@ -21,12 +21,20 @@ namespace   Skynet {
             for (unsigned int it = 0; it < exps.array_items().size(); it++) {
                 exp = new UnsupervisedExperience();
                 values.resize(exps[it]["inputs"].array_items().size(), 0);
-                for (unsigned int x = 0; x < exps[it]["inputs"].array_items().size(); x++)
-                    values[x] = exps[it]["inputs"][x].number_value();
+                for (unsigned int x = 0; x < exps[it]["inputs"].array_items().size(); x++) {
+                    if (exps[it]["inputs"][x].string_value().size())
+                        values[x] = std::atof(exps[it]["inputs"][x].string_value().c_str());
+                    else
+                        values[x] = exps[it]["inputs"][x].number_value();
+                }
                 exp->setInputs(values);
                 values.resize(exps[it]["outputs"].array_items().size(), 0);
-                for (unsigned int x = 0; x < exps[it]["outputs"].array_items().size(); x++)
-                    values[x] = exps[it]["outputs"][x].number_value();
+                for (unsigned int x = 0; x < exps[it]["outputs"].array_items().size(); x++) {
+                    if (exps[it]["outputs"][x].string_value().size())
+                        values[x] = std::atof(exps[it]["outputs"][x].string_value().c_str());
+                    else
+                        values[x] = exps[it]["outputs"][x].number_value();
+                }
                 exp->setExpected(values);
                 m_experiences.push_back(exp);
             }
@@ -49,6 +57,8 @@ namespace   Skynet {
         }
 
         double  UnsupervisedSession::evaluate() {
+            for (unsigned int x = 0; x < m_experiences.size(); x++)
+                m_experiences[x]->apply(*m_network, false);
             return (0);
         }
     }

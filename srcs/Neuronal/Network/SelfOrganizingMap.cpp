@@ -114,6 +114,11 @@ namespace       Skynet {
                     neuron->addInput(m_inputs[input], json["map"][it]["inputs"][input].number_value());
                 m_map.push_back(neuron);
             }
+            m_outputs.resize(m_size.first * m_size.second, std::vector<double>());
+            for (unsigned int it = 0; it < m_outputs.size(); it++) {
+                for (unsigned int x = 0; x < json["outputs_map"][it].array_items().size(); x++)
+                    m_outputs[it].push_back(json["outputs_map"][it][x].number_value());
+            }
         }
 
         void SelfOrganizingMap::apply(UnsupervisedExperience *exp) {
